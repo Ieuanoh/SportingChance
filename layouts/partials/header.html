@@ -1,0 +1,5 @@
+{{ partial "navbar.html" . }}
+
+    {{ if isset .Params "hero_banner"}}
+        {{ partial "hero-banner.html" . }}
+    {{ end }}

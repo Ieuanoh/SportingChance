@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="{{ $.Site.Language.Lang }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
+    <title>{{ $.Site.Title }}</title>
+    <!-- Trial Prism Font -->
+    <script type="text/javascript">
+      (function() {
+          var trial = document.createElement('script');
+          trial.type = 'text/javascript';
+          trial.async = true;
+          trial.src = 'https://easy.myfonts.net/v2/js?sid=232475(font-family=Prism)&sid=232476(font-family=Prism+SemiBold)&sid=232482(font-family=Prism+ExtraLight)&sid=232483(font-family=Prism+Medium)&key=mXWxofDPx3';
+          var head = document.getElementsByTagName("head")[0];
+          head.appendChild(trial);
+      })();
+  </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link rel="stylesheet" href="../css/main.css"/>
+  </head>
+  <body class="overflow-x-hidden w-100">
+
+    {{ block "header" . }}{{ partial "header" . }}{{end}}
+
+    {{ block "main" . }}{{end}}
+
+    {{ block "footer" . }}{{ partial "footer" . }}{{end}}
+
+    <script src="app.js"></script>
+
+  </body>
+</html>

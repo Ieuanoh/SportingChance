@@ -1,0 +1,12 @@
+
+@import './_fonts.css';
+@tailwind preflight;
+@tailwind utilities;
+@import './_utilities.css';
+@import './_custom.css';
+
+/* Disable font preview for dev only */
+
+#mfPreviewBar {
+    display: none!important;
+}

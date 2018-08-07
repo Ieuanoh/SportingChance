@@ -1,0 +1,23 @@
+<style>
+    .header-before::before {
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        position: absolute;
+        content: '';
+        height: 100%;
+        width: 100%;
+        z-index:-1;
+        background-image: linear-gradient(to right, #75ccd8 20%, #64cddc 20%, #04b6ce 100%);
+    }
+</style>
+
+<section class="w-full header-before relative">
+    <div class="w-full h-full graph-texture bg-transparent py-16">
+        <div class="max-w-2xl m-auto text-center py-16">
+            <h1 class="text-headline font-header text-white font-medium">{{ .Params.header }}</h1>
+            <hr class="p-1 sc-red-grad w-48 mt-5">
+        </div>
+    </div>
+</section>
