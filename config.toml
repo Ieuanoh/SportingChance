@@ -2,3 +2,39 @@ baseURL = ""
 relativeURLs = true
 languageCode = "en-us"
 title = "Sporting Chance"
+description = ""
+DefaultContentLanguage = "en"
+MetaDataFormat = "yaml"
+enableRobotsTXT = true
+googleAnalytics = ""
+
+[[menu.main]]
+name = "About Us"
+weight = 1
+url = "/about"
+
+[[menu.main]]
+name = "Services"
+weight = 2
+url = "/services"
+
+[[menu.main]]
+name = "News"
+weight = 3
+url = "/news"
+
+[[menu.main]]
+name = "Contact"
+url = "/contact"
+weight = 4
+
+[params]
+description = ""
+facebook = ""
+linkedin = ""
+twitter = ""
+
+[sitemap]
+changefreq = "monthly"
+filename = "sitemap.xml"
+priority = 0.5

@@ -70,10 +70,21 @@ html {
   content: '"';
   font-family: Prism;
   font-weight: 500;
-  font-size: 6rem;
+  font-size: 4rem;
   color: #eac435;
-  top: -2rem;
-  left: -3.5rem;
+  top: 0;
+  left: -1.5rem;
+  position: absolute;
+}
+
+.quote-box::after {
+  content: '"';
+  font-family: Prism;
+  font-weight: 500;
+  font-size: 4rem;
+  color: #eac435;
+  bottom: 0;
+  right: .5rem;
   position: absolute;
 }
 
@@ -86,6 +97,12 @@ html {
 .texture-overlay {
   background-color: #e1e1e133;
   background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23eac435' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+@media (max-width: 1000px) {
+  #footerLogo {
+    order: -1;
+  }
 }
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 

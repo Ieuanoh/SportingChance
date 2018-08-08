@@ -1,5 +1,5 @@
 <style>
-    .header-before::before {
+    .header-overlay::after {
         top:0;
         left:0;
         right:0;
@@ -8,16 +8,22 @@
         content: '';
         height: 100%;
         width: 100%;
-        z-index:-1;
-        background-image: linear-gradient(to right, #75ccd8 20%, #64cddc 20%, #04b6ce 100%);
+        z-index:1;
+        opacity: 0.6;
+        background-image: linear-gradient(to right, #77a3de 10%, #1cbed4 100%);
     }
 </style>
 
-<section class="w-full header-before relative">
-    <div class="w-full h-full graph-texture bg-transparent py-16">
-        <div class="max-w-2xl m-auto text-center py-16">
-            <h1 class="text-headline font-header text-white font-medium">{{ .Params.header }}</h1>
-            <hr class="p-1 sc-red-grad w-48 mt-5">
+<section class="w-full relative mt-24">
+        <div class="animated fadeIn max-w-lg relative z-10 m-auto text-center py-16">
+            <h1 class="md:text-headline text-3xl  font-header text-grey-darker font-medium">{{ .Params.header }}</h1>
+            <hr class="p-1 sc-red-grad md:w-28 w-24 my-8">
+            <p class="text-xl px-16 leading-normal text-greay-darker">From the football pitch to the classroom, learn about how Sporting chance helps opportunities grow</p>
+
         </div>
-    </div>
+
+        <div class="w-full relative text-center mt-12">
+            <img src="{{ .Params.background }}" alt="our story image" class="w-full relative"/>
+        </div>
+
 </section>

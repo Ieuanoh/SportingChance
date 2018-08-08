@@ -1,6 +1,6 @@
-<section style="background-image:url({{ .Param "hero_bg" }}); height:100vh;" class="relative bg-cover z-0 flex items-center justify-center">
+<section style="background-image:url({{ .Param "hero_bg" }}); height:100vh;" class="relative mt-12 bg-cover z-0 flex items-center justify-center">
     <div class="texture-overlay opacity-75 absolute pin h-full w-full z-10"></div>
-    <div class="sm:w-3/5 w-5/6 m-auto text-center pt-10 relative z-20">
+    <div class="sm:w-4/5 w-5/6 m-auto text-center pt-10 relative z-20">
         <div class="mw6 pv5 animated fadeIn">
             <h1 class="font-header lg:text-headline text-4xl font-medium text-black my-2 py-5">{{ .Param "hero_text" | safeHTML }}</h1>
             <p class="font-main lg:text-2xl text-xl leading-normal text-grey-darkest">{{ .Param "hero_sub" }}</p>   

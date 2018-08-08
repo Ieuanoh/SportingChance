@@ -1,15 +1,19 @@
-<header class="w-full fixed pin-t z-50 sm:py-5 py-3 bg-transparent">
+<header class="w-full fixed z-50 border pin-t z-50 sm:py-3 py-3 bg-white">
         <nav class="sm:flex px-8 justify-between relative z-50">
             <a class="no-underline" href="/">
                 <img src="/img/logo.svg" class="sm:w-auto w-48" alt="sporting chance logo"/> 
             </a>  
 
          <div class="flex items-center justify-between text-lg py-4 sm:py-0">
-            <a class="tracking-wide font-bold font-black sm:text-md text-sm sm:px-3 px-0 uppercase">About</a>
-            <a class="tracking-wide font-bold font-black sm:text-md text-sm sm:px-3 px-0 uppercase">Services</a>
-            <a class="tracking-wide font-bold font-black sm:text-md text-sm sm:px-3 px-0 uppercase">News</a>
-            <a class="tracking-wide font-bold font-black sm:text-md text-sm sm:px-3 px-0 uppercase">Contact</a>
+            {{ range .Site.Menus.main }} 
+                <a href="{{ .URL }}" class="no-underline text-black tracking-wide font-bold font-black sm:text-lg text-sm sm:px-3 px-0 uppercase">{{ .Name }}</a>
+            {{ end }}
          </div>
 
         </nav>
 </header>
+
+
+
+
+   

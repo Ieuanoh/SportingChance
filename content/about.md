@@ -3,11 +3,13 @@ type="page"
 
 [[blocks]]
 template = "generic-header"
-header = "About Us"
+header = "Our Story"
+background = "/img/about.jpg"
 
 
 [[blocks]]
 template = "centred-text"
+left-align = true
     [[blocks.text_section]]
     heading = "Our Mission"
     content = "Sporting Chance Project is an independently run project aiming to meet the educational, employment and lifestyle needs of young people through sport. We use sport, in particular football, to engage and offer pathways for young people aged 13-24.<br/><br/>Sporting Chance Project was formed September 2012 and has evolved since 2002 having delivered within schools, special educational needs schools (SEN), higher education establishments and a young offenders institute."
