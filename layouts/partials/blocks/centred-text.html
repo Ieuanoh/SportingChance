@@ -5,7 +5,7 @@
     {{ with .Params.main_text }}<p class="font-main lg:text-2xl text-lg leading-normal text-grey-darkest">{{ $Params.main_text | safeHTML }}</p>{{ end }}
     {{ with .Params.text_section}}
         {{ range $i, $e:= . }}
-            {{ with .heading }}<h2 style="text-shadow:3px 4px 0px rgba(82, 176, 191, 0.7);" class="md:text-4xl text-2xl font-thin text-left py-8 font-fancy text-black">{{ . }}</h2>{{ end }}
+            {{ with .heading }}<h2 class="md:text-4xl text-2xl font-thin text-left py-8 font-fancy text-black">{{ . }}</h2>{{ end }}
             <p class="font-main lg:text-2xl text-lg leading-normal text-grey-darkest">{{ .content | safeHTML }}</p>
         {{ end }}
     {{ end }}

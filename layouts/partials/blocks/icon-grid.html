@@ -1,0 +1,37 @@
+<section class="py-4 max-w-3xl px-10 m-auto">
+
+<style>
+    .icon-box:nth-child(2n) > div {
+        background-color: #2ab7ca; 
+    }
+    
+    .icon-box > div {
+        background-color: #eac435; 
+    }
+</style>
+ 
+<div class="my-4 py-4 flex flex-wrap justify-between">
+
+     {{ $icons := .Params.icon_boxes }}       
+     {{ range $i, $e:= $icons }}
+        <div class="flex lg:w-1/4 my-2 icon-box">
+          <div class="lg:pr-4 mx-2 p-6 text-white">
+            <div style="height:4rem;width:4rem;" class="my-5">
+              <img alt="{{ .iconalt }}" class="max-w-full" src="{{ .icon }}" />
+            </div>
+            <h3 class="font-fancy text-2xl font-hairline">
+             {{ .title }}
+            </h3>
+            <p class="text-md py-2 leading-normal">
+              {{ .copy }}
+            </p>
+          </div>
+        </div>
+
+     {{ end }}
+
+    </div>
+ 
+ 
+  </div>
+</section>

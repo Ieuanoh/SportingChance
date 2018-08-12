@@ -4,7 +4,10 @@ type="page"
 [[blocks]]
 template = "generic-header"
 header = "Our Story"
-background = "/img/about.jpg"
+subtext = "From the football pitch to the classroom, learn about how Sporting chance helps opportunities grow"
+image = "/img/about.jpg"
+alt = "Our story image"
+
 
 
 [[blocks]]
