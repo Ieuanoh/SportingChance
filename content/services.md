@@ -3,7 +3,7 @@ type="page"
 
 [[blocks]]
 template = "generic-header"
-header = "Our Offering"
+title = "Our Offering"
 subtext = "We provide 1 to 1 life skills and mentoring to our young people, with parents and educational authorities as an integral part of our process. We aim to offer services dependant on what the young person needs. Here's a selection of what we can offer. "
 
 [[blocks]]

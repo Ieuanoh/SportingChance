@@ -1,3 +1,7 @@
+main {
+    margin-top: 4.8rem;
+}
+
 .quote-box::before {
     content: '"';
     font-family: Prism;
@@ -35,4 +39,8 @@
     #footerLogo {
        order: -1; 
     }
+}
+
+.news--content p {
+    padding: .5rem 0;
 }

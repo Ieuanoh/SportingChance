@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+{{ $Params := .Params }}
+
+<section class="w-full relative mt-16 bg-sc-blue">
+        <div class="animated fadeIn max-w-xl relative text-center z-10 mt-4 m-auto py-16">
+            <h1 class="md:text-headline text-3xl  font-header text-white font-medium">{{ .Params.title }}</h1>
+            <div class="text-md uppercase tracking-wide font-bold">
+                    {{ range .Params.tags }}
+                        <button class="trans-02 border-2 border-sc-blue bg-sc-yellow mb-3 capitalize text-sm rounded mt-4 py-1 px-3 text-right font-semibold no-underline text-white">{{ . }}</button>
+                    {{ end }}
+            </div>
+        </div>
+
+        {{ with .Params.image }}
+        <div class="w-full relative text-center mt-12">  
+                <img src="{{ $Params.image }}" alt="{{ $Params.alt }}" class="w-full relative"/>
+        </div>
+        {{ end }}
+
+</section>
+
+<section class="sm:py-24 py-8">
+        <div class="max-w-lg leading-normal text-2xl m-auto news--content">
+            {{ .Content | markdownify }}
+        </div>
+</section>
+  {{ end }}
