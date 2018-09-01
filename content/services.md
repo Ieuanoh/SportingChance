@@ -1,5 +1,7 @@
 +++
 type="page"
+title= "Our Services"
+description = "The Sporting Chance Project provides a range of alternative education services to meet the needs of young people"
 
 [[blocks]]
 template = "generic-header"

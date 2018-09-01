@@ -1,27 +1,37 @@
+{{ $Site := .ctx.Site }}
+{{ $mainSections := $Site.Params.mainSections | default (slice "post") }}
+{{/* Create a variable with that section to use in multiple places. */}}
+{{ $section := where $Site.RegularPages "Section" "in" $mainSections }}
 
-    <section class="stripe-texture py-20 m-auto py-10 text-center w-full">
-        <div class="m-auto max-w-2xl">
-            <h2 class="font-header text-5xl font-gray font-medium py-10">Latest News</h2>
-            <div class="sm:flex items-start justify-center px-4 py-5">
-                
-                <article class="shadow-md bg-white sm:w-1/2 w-5/6 m-auto rounded-lg sm:mx-3 my-4 p-8 text-left">
-                    <h2 class="font-fancy text-3xl text-green-darker pt-2 pb-5">Loren Ipsum Dolor Emit</h2>
-                    <small class="text-lg">3 days ago</small>
-                    <p class="text-lg text-grey-darkest leading-normal py-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book…</p>
-                    <div class="my-6"><a class="trans-02 my-5 mt-4 p-2 text-right font-semibold no-underline text-grey-dark hover:text-sc-blue" href="/">Read More →</a></div>
-                </article>
-                
-                <article class="shadow-md bg-white sm:w-1/2 w-5/6 m-auto rounded-lg sm:mx-3 my-4 p-8 text-left">
-                    <h2 class="font-fancy text-3xl text-green-darker pt-2 pb-5">Loren Ipsum Dolor Emit</h2>
-                    <small class="text-lg">3 days ago</small>
-                    <p class="text-lg text-grey-darkest leading-normal py-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book…</p>
-                    <div class="my-6"><a class="trans-02 my-5 mt-4 p-2 text-right font-semibold no-underline text-grey-dark hover:text-sc-blue" href="/">Read More →</a></div>
-                </article>
 
-            </div>
 
-            <div class="my-6 m-auto"><a class="my-5 mt-4 p-2 text-right text-xl font-semibold no-underline text-grey-dark hover:text-sc-blue" href="/">See all →</a></div>
+          <div class="relative w-100 mb4">
+            hi
+          </div>
 
+<section class="stripe-texture py-20 m-auto py-10 text-center w-full">
+    <div class="m-auto max-w-2xl">
+        <h2 class="font-header text-5xl font-gray font-medium py-10">Latest News</h2>
+        <div class="sm:flex items-start justify-center px-4 py-5">
+            
+            {{ range (first 2 $section) }}
+            <article class="shadow-md bg-white sm:w-1/2 w-5/6 m-auto rounded-lg sm:mx-3 my-4 text-left">
+            {{ if .Params.featured_image }}
+                <img src="{{ .Params.featured_image }}" alt="image from {{ .Title }}">
+            {{ end }}
+                <div class="p-6">
+                    <h2 class="font-fancy text-3xl text-green-darker pt-2 pb-5">{{ .Title }}</h2>
+                    <small class="text-lg">{{ .Date.Format "January 2, 2006" }}</small>
+                    <p class="text-lg text-grey-darkest leading-normal py-3">{{ .Summary }}</p>
+                    <div class="my-6"><a class="trans-02 my-5 mt-4 p-2 text-right font-semibold no-underline text-grey-dark hover:text-sc-blue" href="{{ .Permalink }}">Read More →</a></div>
+                </div>
+            </article>
+            {{ end }}
 
         </div>
-    </section>
+
+        <div class="my-6 m-auto"><a class="my-5 mt-4 p-2 text-right text-xl font-semibold no-underline text-grey-dark hover:text-sc-blue" href="/">See all →</a></div>
+
+
+    </div>
+</section>

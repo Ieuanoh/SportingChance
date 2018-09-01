@@ -1,4 +1,6 @@
 +++
+title= "Engagement & Mentoring Services For Young People"
+description = "The Sporting Chance Project is an Alternative Learning Provider which aims to meet the educational, social and lifestyle needs of young people"
 hero_banner = true
 hero_bg = "/img/hero-alt.png"
 hero_text = "Engage, Mentor, Educate"

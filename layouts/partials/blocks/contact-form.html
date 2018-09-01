@@ -1,0 +1,12 @@
+
+<section class="sm:max-w-lg w-5/6 sm:my-6 my-4 m-auto py-10">
+    <div class="px-12">
+        <p class="text-xl leading-normal pb-12">{{ .Params.form_text }}</p>
+        <form method="POST" action="https://formspree.io/{{ .Params.email }}">
+            <input class="w-full text-lg py-6 px-4 bg-grey-lighter my-4 rounded" type="name" name="name" placeholder="Your name">
+            <input class="w-full text-lg py-6 px-4 bg-grey-lighter my-4 rounded" type="email" name="email" placeholder="Your email">
+            <textarea class="w-full text-lg py-5 h-48 px-4 bg-grey-lighter my-4 rounded" name="message" placeholder="Your message"></textarea>
+            <button class="trans-02 border-2 hover:border-sc-blue hover:bg-sc-blue my-5 text-xl border-grey-darker rounded mt-4 py-3 px-5 text-center w-full font-semibold no-underline text-grey-dark hover:text-white" type="submit">Send</button>
+        </form>
+    </div>
+</section>

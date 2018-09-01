@@ -1,5 +1,7 @@
 +++
 type="page"
+title = "About Us"
+description = "The Sporting Chance Project is an Alternative Learning Provider which aims to meet the educational, social and lifestyle needs of young people"
 
 [[blocks]]
 template = "generic-header"
