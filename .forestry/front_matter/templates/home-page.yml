@@ -49,3 +49,5 @@ fields:
   hidden: false
   template_types:
   - three-columns
+pages:
+- content/testy.md
