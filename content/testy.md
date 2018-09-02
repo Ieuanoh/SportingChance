@@ -22,6 +22,5 @@ page_sections:
   bg_1: "/static/img/header1.jpg"
   bg_2: "/static/img/hero-alt.png"
   bg_3: "/static/img/columnbg.png"
-draft: true
 
 ---
