@@ -2,6 +2,7 @@
 label: Three Columns
 hide_body: false
 is_partial: true
+display_field: bg_1
 fields:
 - type: text
   name: header_1
