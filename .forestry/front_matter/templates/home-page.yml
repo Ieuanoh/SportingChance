@@ -48,8 +48,4 @@ fields:
   type: blocks
   hidden: false
   template_types:
-  - centered-text
   - three-columns
-  - feedback-quote
-  - news-block
-  - partners
