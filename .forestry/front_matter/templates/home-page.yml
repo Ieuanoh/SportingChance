@@ -43,12 +43,13 @@ fields:
   type: text
   hidden: false
   default: ''
-type: blocks
-name: page_sections
-label: Page Sections
-template_types:
-- centered-text
-- three-columns
-- feedback-quote
-- news-block
-- partners
+- name: page_sections
+  label: Page Sections
+  type: blocks
+  hidden: false
+  template_types:
+  - centered-text
+  - three-columns
+  - feedback-quote
+  - news-block
+  - partners
