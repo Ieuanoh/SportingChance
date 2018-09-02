@@ -1,6 +1,5 @@
 {{ define "main" }}
-
-{{- range .Params.blocks -}}
+{{- range .Params.page_sections -}}
         {{- if eq .template "generic-header" -}}{{ partial "blocks/generic-header" (dict "Params" .) }}{{- end -}}
         {{- if eq .template "centred-text" -}}{{ partial "blocks/centred-text" (dict "Params" .) }}{{- end -}}
         {{- if eq .template "three-columns" -}}{{ partial "blocks/three-columns" (dict "Params" .) }}{{- end -}}
