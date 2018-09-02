@@ -47,7 +47,7 @@ fields:
   label: Page Sections
   type: blocks
   hidden: false
-  template:
+  template_types:
   - centered-text
   - three-columns
   - feedback-quote
