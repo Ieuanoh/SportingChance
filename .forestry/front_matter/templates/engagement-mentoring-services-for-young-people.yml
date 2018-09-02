@@ -1,7 +1,7 @@
 ---
-label: Engagement & Mentoring Services For Young People
-hide_body: 
-is_partial: 
+label: Generic Page Template
+hide_body: true
+is_partial: true
 fields:
 - name: title
   label: Title
