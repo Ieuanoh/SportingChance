@@ -1,0 +1,54 @@
+---
+label: Page Template
+hide_body: true
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+- name: hero_banner
+  label: Hero banner
+  type: boolean
+  hidden: false
+  default: ''
+- name: hero_bg
+  label: Hero bg
+  type: text
+  hidden: false
+  default: ''
+- name: hero_text
+  label: Hero text
+  type: text
+  hidden: false
+  default: ''
+- name: hero_sub
+  label: Hero sub
+  type: textarea
+  hidden: false
+  default: ''
+- name: herobuttontext
+  label: Herobuttontext
+  type: text
+  hidden: false
+  default: ''
+- name: herolink
+  label: Herolink
+  type: text
+  hidden: false
+  default: ''
+type: blocks
+name: page_sections
+label: Page Sections
+template_types:
+- centered-text
+- three-columns
+- feedback-quote
+- news-block
+- partners
