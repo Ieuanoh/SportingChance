@@ -17,5 +17,16 @@ page_sections:
     fun playing my favourite sports. My teachers at Sporting Chance were very helpful
     with getting me to focus on my school work and eventually getting me to work independently.
 - template: news-block
+- template: partners
+  header: Our Partners
+  main_text: |-
+    Sporting Chance Project: Is an Alternative Learning Provider who work with young people to fulfill the potential they all possess.
+
+    We engage with parents & fellow professionals to secure real outcomes to support the young persons life journey.  We provide education with emphasis on Functional Mathematics, English & Sport are at the heart of the project but with many full time education & vocational packages available.
+  partner_logos:
+  - name: Bristol city
+    src: "/img/briscity.png"
+  - name: South gloucester
+    src: "/img/southglos.png"
 
 ---
