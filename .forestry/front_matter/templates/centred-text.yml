@@ -3,9 +3,9 @@ label: Centred Text
 hide_body: false
 is_partial: true
 fields:
-- type: text
-  label: Left Align
+- type: boolean
   name: left-align
+  label: Left Align
   description: Left align the text, centered by default
 - type: field_group_list
   label: Text Section
