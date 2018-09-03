@@ -1,13 +1,7 @@
 {{ $Site := .ctx.Site }}
-{{ $mainSections := $Site.Params.mainSections | default (slice "post") }}
+{{ $mainSections := $Site.Params.mainSections | default (slice "news") }}
 {{/* Create a variable with that section to use in multiple places. */}}
 {{ $section := where $Site.RegularPages "Section" "in" $mainSections }}
-
-
-
-          <div class="relative w-100 mb4">
-            hi
-          </div>
 
 <section class="stripe-texture py-20 m-auto py-10 text-center w-full">
     <div class="m-auto max-w-2xl">
@@ -31,7 +25,6 @@
         </div>
 
         <div class="my-6 m-auto"><a class="my-5 mt-4 p-2 text-right text-xl font-semibold no-underline text-grey-dark hover:text-sc-blue" href="/">See all →</a></div>
-
 
     </div>
 </section>
