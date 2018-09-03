@@ -15,3 +15,10 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+- type: text
+  name: buttonlink
+  label: Button Link
+  config:
+    required: true
+  description: The Link for the CTA button
+  default: "/contact"
