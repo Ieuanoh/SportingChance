@@ -53,3 +53,5 @@ fields:
   - feedback-quote
   - centered-text
   - three-columns
+pages:
+- content/_index.md
