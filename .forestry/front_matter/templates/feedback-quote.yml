@@ -1,0 +1,26 @@
+---
+label: Feedback Quote
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  label: Header
+  name: header
+  default: Success Stories
+- type: text
+  name: name
+  label: Name
+  description: Quote caption name
+  default: James
+- type: text
+  name: caption
+  label: Caption
+  description: Description of the person
+  default: Now working as an apprentice ar Mercedes
+- type: textarea
+  label: Quote
+  name: quote
+  description: Quote text
+  default: Sporting Chance was a great way for me to get back into school while having
+    fun playing my favourite sports. My teachers at Sporting Chance were very helpful
+    with getting me to focus on my school work and eventually getting me to work independently.
