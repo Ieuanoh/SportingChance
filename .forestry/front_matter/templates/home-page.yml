@@ -48,10 +48,10 @@ fields:
   type: blocks
   hidden: false
   template_types:
+  - centred-text
   - partners
   - news-block
   - feedback-quote
-  - centered-text
   - three-columns
 pages:
 - content/_index.md
