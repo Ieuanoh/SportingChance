@@ -48,6 +48,7 @@ fields:
   type: blocks
   hidden: false
   template_types:
+  - feedback-quote
   - centered-text
   - three-columns
 pages:
