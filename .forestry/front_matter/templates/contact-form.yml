@@ -1,0 +1,15 @@
+---
+label: Contact Form
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  label: Form Text
+  name: form_text
+  description: Form text description (for above the form)
+- type: text
+  label: Email
+  name: email
+  description: The email that the contact information will be sent to
+  config:
+    required: true
