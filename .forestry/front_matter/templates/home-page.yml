@@ -48,6 +48,7 @@ fields:
   type: blocks
   hidden: false
   template_types:
+  - partners
   - news-block
   - feedback-quote
   - centered-text
