@@ -18,4 +18,5 @@ fields:
   - feedback-quote
   - news-block
 pages:
+- content/contact.md
 - content/about.md
