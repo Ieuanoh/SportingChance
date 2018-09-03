@@ -4,7 +4,7 @@ hide_body: false
 is_partial: true
 fields:
 - type: boolean
-  name: left_align
+  name: left-align
   label: Left aligned text
   description: Align the text to the left, default is centred
 - type: field_group_list
