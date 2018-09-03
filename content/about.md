@@ -9,6 +9,11 @@ subtext = "From the football pitch to the classroom, learn about how Sporting ch
 template = "generic-header"
 title = "Our Story"
 [[page_sections]]
+template = "centred-text"
+[[page_sections.text_section]]
+content = "Sporting  Chance Project is an independently run project aiming to meet  the  educational, employment and lifestyle needs of young people through   sport. We use sport, in particular football, to engage and offer   pathways for young people aged 13-24.      \n\nSporting Chance Project was  formed September 2012 and has evolved since  2002 having delivered  within schools, special educational needs  schools (SEN), higher  education establishments and a young offenders  institute."
+heading = "Our Mission"
+[[page_sections]]
 buttonlink = ""
 buttontext = "Contact Us"
 heading = "How can we help you?"
