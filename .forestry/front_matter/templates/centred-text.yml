@@ -7,6 +7,10 @@ fields:
   name: left-align
   label: Left Align
   description: Left align the text, centered by default
+- type: text
+  name: header
+  label: Header
+  description: Header for the section (not required if using text sections blocks)
 - type: field_group_list
   label: Text Section
   name: text_section
@@ -24,3 +28,11 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
+- type: textarea
+  name: main_text
+  label: Main text
+  description: Main text area, not required if using text sections blocks
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
