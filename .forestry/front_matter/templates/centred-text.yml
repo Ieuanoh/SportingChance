@@ -36,3 +36,15 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+- type: boolean
+  name: button
+  label: Button
+  description: Select to show a button
+- type: text
+  name: buttonlink
+  label: Button Link
+  description: Link for the button if it is shown
+- type: text
+  name: buttontext
+  label: Button Text
+  description: Text for the button if it is shown
