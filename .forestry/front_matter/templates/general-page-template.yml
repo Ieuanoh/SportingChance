@@ -8,13 +8,13 @@ fields:
   label: Page Sections
   description: Reuseable page sections
   template_types:
+  - centred-text
   - cta-block
   - contact-form
   - icon-grid
   - generic-header
   - partners
   - three-columns
-  - centered-text
   - feedback-quote
   - news-block
 pages:
