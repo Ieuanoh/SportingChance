@@ -17,3 +17,5 @@ fields:
   - centered-text
   - feedback-quote
   - news-block
+pages:
+- content/about.md

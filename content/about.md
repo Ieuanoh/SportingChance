@@ -1,46 +1,27 @@
 +++
-type="page"
-title = "About Us"
 description = "The Sporting Chance Project is an Alternative Learning Provider which aims to meet the educational, social and lifestyle needs of young people"
-
+title = "About Us"
+type = "page"
 [[page_sections]]
+alt = "Our story image"
+image = "/img/about.jpg"
+subtext = "From the football pitch to the classroom, learn about how Sporting chance helps opportunities grow"
 template = "generic-header"
 title = "Our Story"
-subtext = "From the football pitch to the classroom, learn about how Sporting chance helps opportunities grow"
-image = "/img/about.jpg"
-alt = "Our story image"
-
-
-
 [[page_sections]]
-template = "centred-text"
-left-align = true
-    [[page_sections.text_section]]
-    heading = "Our Mission"
-    content = "Sporting Chance Project is an independently run project aiming to meet the educational, employment and lifestyle needs of young people through sport. We use sport, in particular football, to engage and offer pathways for young people aged 13-24.<br/><br/>Sporting Chance Project was formed September 2012 and has evolved since 2002 having delivered within schools, special educational needs schools (SEN), higher education establishments and a young offenders institute."
-    [[page_sections.text_section]]
-    heading = "What we do"
-    content = "The project delivers a range of education, employment and sport-based activities to enhance students in their careers to meet the demands of the ever-changing further/higher education and employment markets.<br/><br/>Our activities cover various sports, encourage healthy and positive lifestyles, offer mentoring, teaching, leadership skills, while giving young people exposure to the community and role models in sport."
-
+left_align = true
+template = "centered-text"
+[[page_sections.text_section]]
+content = "Sporting Chance Project is an independently run project aiming to meet  the educational, employment and lifestyle needs of young people through  sport. We use sport, in particular football, to engage and offer  pathways for young people aged 13-24.  \n  \nSporting Chance Project was  formed September 2012 and has evolved since 2002 having delivered  within schools, special educational needs schools (SEN), higher  education establishments and a young offenders institute."
+heading = "Our Mission"
+[[page_sections.text_section]]
+content = "The project delivers a range of education, employment and sport-based  activities to enhance students in their careers to meet the demands of  the ever-changing further/higher education and employment markets.  \n  \nOur  activities cover various sports, encourage healthy and positive  lifestyles, offer mentoring, teaching, leadership skills, while giving  young people exposure to the community and role models in sport."
+heading = "What we do"
 [[page_sections]]
-template = "image-columns"
-header_1 = "Education"
-text_1 = "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-bg_1 = "/img/columnbg.png"
-header_2 = "Mentoring"
-text_2 = "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-bg_2 = "/img/columnbg.png"
-header_3 = "Outcomes"
-text_3 = "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-bg_3 = "/img/columnbg.png"
-
-[[page_sections]]
-template = "cta-block"
-heading = "How can we help you?"
-text = "Find out more about our services and how we can help you."
 buttonlink = ""
-buttontext= "Contact Us"
-
-
+buttontext = "Contact Us"
+heading = "How can we help you?"
+template = "cta-block"
+text = "Find out more about our services and how we can help you."
 
 +++
