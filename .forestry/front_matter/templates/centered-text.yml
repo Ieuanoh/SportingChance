@@ -18,7 +18,7 @@ fields:
     description: The heading for the section, if applicable
   - type: textarea
     config:
-      wysiwyg: false
+      wysiwyg: true
       schema:
         format: markdown
     name: content
