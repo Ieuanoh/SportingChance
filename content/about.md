@@ -18,7 +18,7 @@ heading = "Our Mission"
 content = "The project delivers a range of education, employment and sport-based   activities to enhance students in their careers to meet the demands of   the ever-changing further/higher education and employment markets.      Our  activities cover various sports, encourage healthy and positive   lifestyles, offer mentoring, teaching, leadership skills, while giving   young people exposure to the community and role models in sport."
 heading = "What we do"
 [[page_sections]]
-buttonlink = ""
+buttonlink = "/contact"
 buttontext = "Contact Us"
 heading = "How can we help you?"
 template = "cta-block"

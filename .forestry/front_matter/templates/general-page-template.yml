@@ -34,5 +34,5 @@ fields:
   hidden: true
   default: page
 pages:
-- content/contact.md
 - content/about.md
+- content/contact.md
