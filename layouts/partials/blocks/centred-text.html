@@ -1,5 +1,4 @@
 {{ $Params := .Params }}
-
 <section class="sm:max-w-lg w-5/6 sm:my-24 my-4 m-auto py-10 {{ if isset .Params "left-align" }}text-left {{ else }} text-center {{ end }}">
     {{ with .Params.header }}<h2 class="font-header text-4xl sm:text-5xl font-gray font-medium py-10">{{ . }}</h2>{{ end }}
     {{ with .Params.main_text }}<p class="font-main lg:text-2xl text-lg leading-normal text-grey-darkest">{{ $Params.main_text | safeHTML }}</p>{{ end }}
