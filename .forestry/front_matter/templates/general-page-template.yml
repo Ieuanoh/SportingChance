@@ -2,4 +2,14 @@
 label: General Page Template
 hide_body: true
 is_partial: false
-fields: []
+fields:
+- type: blocks
+  name: page_sections
+  label: Page Sections
+  description: Reuseable page sections
+  template_types:
+  - partners
+  - three-columns
+  - centered-text
+  - feedback-quote
+  - news-block
