@@ -1,0 +1,10 @@
+---
+label: Partners
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: header
+  label: Header
+  description: Section heading
+  default: Our Partners
