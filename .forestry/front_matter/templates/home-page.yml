@@ -50,3 +50,5 @@ fields:
   template_types:
   - centered-text
   - three-columns
+pages:
+- content/testing.md
