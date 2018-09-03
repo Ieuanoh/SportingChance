@@ -8,6 +8,13 @@ herobuttontext = "Get in touch"
 herolink = "/contact"
 title = "Engagement & Mentoring Services For Young People"
 [[page_sections]]
+button = true
+buttonlink = "/about"
+buttontext = "Read More"
+header = "About Us"
+main_text = "Sporting Chance Project: Is an Alternative Learning Provider who work  with young people to fulfill the potential they all possess.   \n   \nWe engage with parents & fellow professionals to secure real  outcomes to support the young persons life journey.  We provide  education with emphasis on Functional Mathematics, English & Sport  are at the heart of the project but with many full time education &  vocational packages available."
+template = "centred-text"
+[[page_sections]]
 bg_1 = "/img/brad-neathery-258926-unsplash.jpg"
 bg_2 = "/img/alejandro-escamilla-2-unsplash.jpg"
 bg_3 = "/img/columnbg.png"
