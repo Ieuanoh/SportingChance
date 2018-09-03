@@ -17,6 +17,5 @@ page_sections:
     fun playing my favourite sports. My teachers at Sporting Chance were very helpful
     with getting me to focus on my school work and eventually getting me to work independently.
 - template: news-block
-draft: true
 
 ---
