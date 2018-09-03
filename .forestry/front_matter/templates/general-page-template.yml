@@ -8,6 +8,10 @@ fields:
   label: Page Sections
   description: Reuseable page sections
   template_types:
+  - cta-block
+  - contact-form
+  - icon-grid
+  - generic-header
   - partners
   - three-columns
   - centered-text
