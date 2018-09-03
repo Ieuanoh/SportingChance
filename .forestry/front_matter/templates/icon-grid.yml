@@ -1,0 +1,28 @@
+---
+label: Icon Grid
+hide_body: true
+is_partial: true
+fields:
+- type: field_group_list
+  name: icon_boxes
+  label: Icon Boxes
+  description: Repeatable icon boxes
+  fields:
+  - type: text
+    name: title
+    label: Title
+    description: Icon box title
+  - type: text
+    label: Text content
+    name: copy
+    description: Text content for the icon
+  - type: file
+    label: Icon
+    name: icon
+    description: Icon image
+    config:
+      maxSize: '2'
+  - type: text
+    name: iconalt
+    label: Icon Alt
+    description: Alt text for the icon
