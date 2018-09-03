@@ -1,0 +1,26 @@
+---
+label: Centred Text
+hide_body: false
+is_partial: true
+fields:
+- type: boolean
+  name: left-align
+  label: Left aligned text
+  description: Align the text to the left, default is centred
+- type: field_group_list
+  label: Text Section
+  name: text_section
+  description: An individual text section
+  fields:
+  - type: text
+    name: heading
+    label: Heading
+    description: The heading for the section, if applicable
+  - type: textarea
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+    name: content
+    label: Content
+    description: The text content
