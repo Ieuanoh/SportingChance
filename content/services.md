@@ -9,7 +9,7 @@ title = "Our Offering"
 [[page_sections]]
 template = "icon-grid"
 [[page_sections.icon_boxes]]
-copy = "If mainstream education isn't providing what the person needs, we help them get back on track"
+copy = "If mainstream education isn't providing what the person needs, we help them get back on track with alternative learning plans and mentoring"
 icon = "/img/altedu.svg"
 iconalt = "alternative education icon"
 title = "Alternative Education"
