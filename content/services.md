@@ -14,7 +14,7 @@ icon = "/img/altedu.svg"
 iconalt = "alternative education icon"
 title = "Alternative Education"
 [[page_sections.icon_boxes]]
-copy = "Something about sport coaching can go here, maybe it can fill the whole box although it'll have to be a bit longer to do so "
+copy = "We believe sport is a great way for individuals to build discipline and creative thinking, helping them to grow in other areas of life"
 icon = "/img/sportcoaching.svg"
 iconalt = "sport coaching icon"
 title = "Sport Coaching"
