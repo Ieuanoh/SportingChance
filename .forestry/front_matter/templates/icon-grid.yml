@@ -12,16 +12,16 @@ fields:
     name: title
     label: Title
     description: Icon box title
-  - type: text
-    label: Text content
-    name: copy
-    description: Text content for the icon
   - type: file
     label: Icon
     name: icon
     description: Icon image
     config:
       maxSize: '2'
+  - type: textarea
+    name: copy
+    label: Text content
+    description: The text content for the icon box
   - type: text
     name: iconalt
     label: Icon Alt
