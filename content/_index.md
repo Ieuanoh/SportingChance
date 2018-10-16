@@ -38,14 +38,14 @@ header = "Our Partners"
 main_text = "Sporting Chance Project: Is an Alternative Learning Provider who work with young people to fulfill the potential they all possess. <br/> <br/> We engage with parents & fellow professionals to secure real outcomes to support the young persons life journey.  We provide education with emphasis on Functional Mathematics, English & Sport are at the heart of the project but with many full time education & vocational packages available."
 template = "partners"
 [[page_sections.partner_logos]]
-name = "Bristol city"
-src = "/img/briscity.png"
+name = "KingsMeadow"
+src = "/img/kmlogo.jpg"
 [[page_sections.partner_logos]]
-name = "North somerset council"
-src = "/img/northsom.png"
+name = "pathways"
+src = "/img/pathways.jpg"
 [[page_sections.partner_logos]]
-name = "Bristol city council"
-src = "/img/bcc.png"
+name = "new horizons"
+src = "/img/newhorizons_header2.jpg"
 [[page_sections.partner_logos]]
 name = "South Gloucester council"
 src = "/img/southglos.png"
