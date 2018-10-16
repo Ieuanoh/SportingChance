@@ -49,8 +49,5 @@ src = "/img/newhorizons_header2.jpg"
 [[page_sections.partner_logos]]
 name = "South Gloucester council"
 src = "/img/southglos.png"
-[[page_sections.partner_logos]]
-name = "Bristol sport"
-src = "/img/brissport.png"
 
 +++
