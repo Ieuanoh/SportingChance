@@ -1,40 +1,30 @@
-baseURL = ""
-relativeURLs = true
-languageCode = "en-us"
-title = "Sporting Chance"
-description = ""
 DefaultContentLanguage = "en"
 MetaDataFormat = "yaml"
+Paginate = 3
+baseURL = ""
+description = ""
 enableRobotsTXT = true
 googleAnalytics = ""
-Paginate = 3
-
-[[menu.main]]
-name = "About Us"
-weight = 1
-url = "/about"
-
-[[menu.main]]
-name = "Services"
-weight = 2
-url = "/services"
-
-[[menu.main]]
-name = "News"
-weight = 3
-url = "/news"
-
+languageCode = "en-us"
+relativeURLs = true
+title = "Sporting Chance"
 [[menu.main]]
 name = "Contact"
 url = "/contact"
-weight = 4
-
+weight = 3
+[[menu.main]]
+name = "Services"
+url = "/services"
+weight = 2
+[[menu.main]]
+name = "About Us"
+url = "/about"
+weight = 1
 [params]
 description = "The Sporting Chance Project is an Alternative Learning Provider which aims to meet the educational, social and lifestyle needs of young people"
 facebook = ""
 linkedin = ""
 twitter = ""
-
 [sitemap]
 changefreq = "monthly"
 filename = "sitemap.xml"
