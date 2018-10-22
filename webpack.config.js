@@ -3,7 +3,6 @@ const path = require('path')
 
 module.exports = {
   entry: './src/js/main.js',
-  // watch: true,
   output: {
     path: path.resolve(__dirname, 'static'),
     filename: 'app.js',

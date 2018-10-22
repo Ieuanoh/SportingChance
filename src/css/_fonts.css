@@ -1,5 +1,13 @@
  @import url('https://fonts.googleapis.com/css?family=Carter+One|Karla|Londrina+Solid');
 
- body, html {
+ @font-face {
+     font-family: 'Prism-Regular';
+     src: url('/fonts/37D285_0_0.eot');
+     src: url('/fonts/37D285_0_0.eot?#iefix') format('embedded-opentype'), url('/fonts/37D285_0_0.woff2') format('woff2'), url('/fonts/37D285_0_0.woff') format('woff'), url('/fonts/37D285_0_0.ttf') format('truetype');
+ }
+
+
+ body,
+ html {
      font-family: Karla, sans-serif;
  }

@@ -4,7 +4,7 @@ main {
 
 .quote-box::before {
     content: '"';
-    font-family: Prism;
+    font-family: Prism-Regular;
     font-weight: 500;
     font-size: 4rem;
     color: #eac435;
@@ -15,7 +15,7 @@ main {
 
 .quote-box::after {
     content: '"';
-    font-family: Prism;
+    font-family: Prism-Regular;
     font-weight: 500;
     font-size: 4rem;
     color: #eac435;
