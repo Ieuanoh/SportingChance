@@ -6,7 +6,7 @@ description = ""
 enableRobotsTXT = true
 googleAnalytics = ""
 languageCode = "en-us"
-relativeURLs = true
+relativeURLs = false
 title = "Sporting Chance"
 [[menu.main]]
 name = "Contact"
