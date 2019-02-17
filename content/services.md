@@ -49,10 +49,10 @@ icon = "/img/book.svg"
 iconalt = "independent learning icon"
 title = "Independent Learning"
 [[page_sections]]
-caption = "Now working as an apprentice at Mercedes"
+caption = "Now travelling Australia and New Zealand"
 header = "Success Stories"
-name = "James"
-quote = "Sporting Chance was a great way for me to get back into school while having fun playing my favourite sports. My teachers at Sporting Chance were very helpful with getting me to focus on my school work and eventually getting me to work independently."
+name = "Cory O"
+quote = "Sporting Chance Project, in conjunction with my school, helped me to focus on my academic studies, which allowed me to participate in sport alongside my Maths and English qualifications. I am now travelling to New Zealand following a two-year spell in Australia. This wouldn't have been possible without all of the help I've received along the way. "
 template = "feedback-quote"
 [[page_sections]]
 buttonlink = "/contact"
