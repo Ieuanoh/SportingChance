@@ -1,6 +1,5 @@
 +++
 description = "The Sporting Chance Project is an Alternative Learning Provider which aims to meet the educational, social and lifestyle needs of young people"
-draft = true
 hero_banner = true
 hero_bg = "/img/hero-alt.jpg"
 hero_sub = "The Sporting Chance Project is an Alternative Learning Provider which aims to meet the educational, social and lifestyle needs of young people"
