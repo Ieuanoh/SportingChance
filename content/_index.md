@@ -8,9 +8,9 @@ herobuttontext = "Get in touch"
 herolink = "/contact"
 title = "Engagement & Mentoring Services For Young People"
 [[page_sections]]
-button = false
-buttonlink = ""
-buttontext = ""
+button = true
+buttonlink = "https://www.sportingchanceproject.co.uk/contact/"
+buttontext = "Get in touch"
 header = "Sporting Chance Project's reaction to COVID-19"
 left-align = false
 main_text = "In light of the government's guidance regarding school closures and our regular timetable with our students being affected, Sporting Chance Project's team are here to continue to support our students and their families. We're hoping to help maintain student welfare at this difficult time.\n\nWhether you would you like us to continue our sessions with kids (practising social distancing), need food and supplies delivered or someone to talk to, please get in touch with us and we will try to help wherever we can."
