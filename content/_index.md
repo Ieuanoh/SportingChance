@@ -1,5 +1,5 @@
 +++
-description = "The Sporting Chance Project is an Alternative Learning Provider which aims to meet the educational, social and lifestyle needs of young people"
+description = "The Sporting Chance Project is an Alternative Learning Provider which aims to meet the educational, social and lifestyle needs of young people."
 hero_banner = true
 hero_bg = "/img/hero-alt.jpg"
 hero_sub = "The Sporting Chance Project is an Alternative Learning Provider which aims to meet the educational, social and lifestyle needs of young people"
@@ -8,12 +8,23 @@ herobuttontext = "Get in touch"
 herolink = "/contact"
 title = "Engagement & Mentoring Services For Young People"
 [[page_sections]]
+button = false
+buttonlink = ""
+buttontext = ""
+header = "Sporting Chance Project's reaction to COVID-19"
+left-align = false
+main_text = "In light of the government's guidance regarding school closures and our regular timetable with our students being affected, Sporting Chance Project's team are here to continue to support our students and their families. We're hoping to help maintain student welfare at this difficult time.\n\nWhether you would you like us to continue our sessions with kids (practising social distancing), need food and supplies delivered or someone to talk to, please get in touch with us and we will try to help wherever we can."
+template = "centred-text"
+text_section = []
+[[page_sections]]
 button = true
 buttonlink = "/about"
 buttontext = "Read More"
 header = "About Us"
-main_text = "Sporting Chance Project: Is an Alternative Learning Provider who work  with young people to fulfill the potential they all possess.   \n   \nWe engage with parents & fellow professionals to secure real  outcomes to support the young persons life journey.  We provide  education with emphasis on Functional Mathematics, English & Sport  are at the heart of the project but with many full time education &  vocational packages available."
+left-align = false
+main_text = "Sporting Chance Project: Is an Alternative Learning Provider who work  with young people to fulfill the potential they all possess.\n\nWe engage with parents & fellow professionals to secure real  outcomes to support the young persons life journey.  We provide  education with emphasis on Functional Mathematics, English & Sport  are at the heart of the project but with many full time education &  vocational packages available."
 template = "centred-text"
+text_section = []
 [[page_sections]]
 bg_1 = "/img/brad-neathery-258926-unsplash.jpg"
 bg_2 = "/img/alejandro-escamilla-2-unsplash.jpg"

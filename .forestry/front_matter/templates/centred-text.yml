@@ -1,7 +1,6 @@
 ---
 label: Centred Text
 hide_body: false
-is_partial: true
 fields:
 - type: boolean
   name: left-align

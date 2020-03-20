@@ -1,7 +1,6 @@
 ---
 label: Icon Grid
 hide_body: true
-is_partial: true
 fields:
 - type: field_group_list
   name: icon_boxes

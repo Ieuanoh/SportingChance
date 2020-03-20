@@ -1,7 +1,6 @@
 ---
 label: Feedback Quote
 hide_body: false
-is_partial: true
 fields:
 - type: text
   label: Header

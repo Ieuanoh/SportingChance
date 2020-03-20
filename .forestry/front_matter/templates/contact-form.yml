@@ -1,7 +1,6 @@
 ---
 label: Contact Form
 hide_body: false
-is_partial: true
 fields:
 - type: text
   label: Form Text
