@@ -17,6 +17,15 @@ main_text = "As Sporting Chance Project gradually re-introduce sessions with our
 template = "centred-text"
 text_section = []
 [[page_sections]]
+button = false
+buttonlink = ""
+buttontext = ""
+header = ""
+left-align = false
+main_text = "* Practising social distancing\n* Using personal protective equipment (PPE)\n* Regularly deep-cleaning vehicles and introducing protective shields, where travel is involved\n* Opting for outdoor activities wherever possible\n* Made4Ever also have clear guidelines on the use of their facilities"
+template = "centred-text"
+text_section = []
+[[page_sections]]
 button = true
 buttonlink = "https://www.sportingchanceproject.co.uk/contact/"
 buttontext = "Get in touch"
