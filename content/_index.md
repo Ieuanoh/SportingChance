@@ -11,9 +11,9 @@ title = "Engagement & Mentoring Services For Young People"
 button = true
 buttonlink = "https://www.sportingchanceproject.co.uk/contact/"
 buttontext = "Get in touch"
-header = "Sporting Chance Project's reaction to COVID-19"
+header = "COVID-19 update - Keeping our students safe"
 left-align = false
-main_text = "In light of the government's guidance regarding school closures and our regular timetable with our students being affected, Sporting Chance Project's team are here to continue to support our students and their families. We're hoping to help maintain student welfare at this difficult time.\n\nWhether you would you like us to continue our sessions with kids (practising social distancing), need food and supplies delivered or someone to talk to, please get in touch with us and we will try to help wherever we can."
+main_text = "As Sporting Chance Project gradually re-introduce sessions with our students in line with school and government guidance, we want to reassure you of the safety measures we've put in place to protect both our students and staff. We are:\n\n* Practising social distancing\n* Using personal protective equipment (PPE)\n* Regularly deep-cleaning vehicles and introducing protective shields, where travel is involved\n* Opting for outdoor activities wherever possible\n* Made4Ever also have clear guidelines on the use of their facilities\n\nIf you're not yet comfortable with sending any young person back to school, we are still available to offer our support to our students and their families. We want to help maintain student welfare at this difficult time.\n\nIf you have any questions or queries, please do not hesitate to get in touch."
 template = "centred-text"
 text_section = []
 [[page_sections]]
