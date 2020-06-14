@@ -8,9 +8,9 @@ herobuttontext = "Get in touch"
 herolink = "/contact"
 title = "Engagement & Mentoring Services For Young People"
 [[page_sections]]
-button = false
-buttonlink = ""
-buttontext = ""
+button = true
+buttonlink = "https://www.sportingchanceproject.co.uk/contact/"
+buttontext = "Get in touch"
 header = "COVID-19 update - Keeping our students safe"
 left-align = false
 main_text = ""
