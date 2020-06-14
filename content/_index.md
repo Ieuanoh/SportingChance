@@ -22,7 +22,7 @@ heading = ""
 content = "    <br>\n\nWe are practising social distancing, using personal protective equipment (PPE), regularly cleaning vehicles and introducing protective shields (where travel is involved), and opting for outdoor activities wherever possible. Made4Ever also have clear guidelines on the use of their facilities.\n\n    <br>"
 heading = ""
 [[page_sections.text_section]]
-content = "    <br>\n\nIf you're not yet comfortable with sending any young person back to school, we are still available to offer our support to our students and their families. We want to help maintain student welfare at this difficult time.\n\nIf you have any questions or queries, please do not hesitate to get in touch."
+content = "    <br>\n    </br>\n\nIf you're not yet comfortable with sending any young person back to school, we are still available to offer our support to our students and their families. We want to help maintain student welfare at this difficult time.\n\n    <br>\n\nIf you have any questions or queries, please do not hesitate to get in touch."
 heading = ""
 [[page_sections]]
 button = true
