@@ -15,16 +15,12 @@ header = "COVID-19 update - Keeping our students safe"
 left-align = false
 main_text = "As Sporting Chance Project gradually re-introduce sessions with our students in line with school and government guidance, we want to reassure you of the safety measures we've put in place to protect both our students and staff. We are:"
 template = "centred-text"
-text_section = []
-[[page_sections]]
-button = false
-buttonlink = ""
-buttontext = ""
-header = ""
-left-align = false
-main_text = "* Practising social distancing\n* Using personal protective equipment (PPE)\n* Regularly deep-cleaning vehicles and introducing protective shields, where travel is involved\n* Opting for outdoor activities wherever possible\n* Made4Ever also have clear guidelines on the use of their facilities"
-template = "centred-text"
-text_section = []
+[[page_sections.text_section]]
+content = "As Sporting Chance Project gradually re-introduce sessions with our students in line with school and government guidance, we want to reassure you of the safety measures we've put in place to protect both our students and staff."
+heading = ""
+[[page_sections.text_section]]
+content = "* Practising social distancing\n* Using personal protective equipment (PPE)\n* Regularly deep-cleaning vehicles and introducing protective shields, where travel is involved\n* Opting for outdoor activities wherever possible\n* Made4Ever also have clear guidelines on the use of their facilities"
+heading = ""
 [[page_sections]]
 button = true
 buttonlink = "https://www.sportingchanceproject.co.uk/contact/"
