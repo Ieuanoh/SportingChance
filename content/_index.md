@@ -16,7 +16,7 @@ left-align = false
 main_text = ""
 template = "centred-text"
 [[page_sections.text_section]]
-content = "As Sporting Chance Project gradually re-introduce sessions with our students in line with school and government guidance, we want to reassure you of the safety measures we've put in place to protect both our students and staff."
+content = "As Sporting Chance Project gradually re-introduce sessions with our students in line with school and government guidance, we want to reassure you of the safety measures we have put in place to protect both our students and staff."
 heading = ""
 [[page_sections.text_section]]
 content = "    <br>\n\nWe are practising social distancing, using personal protective equipment (PPE), regularly cleaning vehicles and introducing protective shields (where travel is involved), and opting for outdoor activities wherever possible. Made4Ever also have clear guidelines on the use of their facilities.\n\n    <br>"
