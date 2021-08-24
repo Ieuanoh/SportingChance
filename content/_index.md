@@ -1,8 +1,8 @@
 +++
-description = "The Sporting Chance Project is an Alternative Learning Provider which aims to meet the educational, social and lifestyle needs of young people"
+description = "Sporting Chance Project is an Alternative Learning Provider which aims to meet the educational, social and lifestyle needs of young people."
 hero_banner = true
 hero_bg = "/img/hero-alt.jpg"
-hero_sub = "The Sporting Chance Project is an Alternative Learning Provider which aims to meet the educational, social and lifestyle needs of young people"
+hero_sub = "Sporting Chance Project is an Alternative Learning Provider which aims to meet the educational, social and lifestyle needs of young people"
 hero_text = "Engage, Mentor, Educate"
 herobuttontext = "Get in touch"
 herolink = "/contact"
@@ -16,13 +16,10 @@ left-align = false
 main_text = ""
 template = "centred-text"
 [[page_sections.text_section]]
-content = "As Sporting Chance Project gradually re-introduce sessions with our students in line with school and government guidance, we want to reassure you of the safety measures we have put in place to protect both our students and staff."
+content = "Sporting Chance Project is working in line with school and government guidance, and we want to reassure you of the safety measures we have put in place to protect both our students and staff."
 heading = ""
 [[page_sections.text_section]]
-content = "    <br>\n\nWe are practising social distancing, using personal protective equipment (PPE), regularly cleaning vehicles and introducing protective shields (where travel is involved), and opting for outdoor activities wherever possible. Made4Ever also have clear guidelines on the use of their facilities.\n\n    <br>"
-heading = ""
-[[page_sections.text_section]]
-content = "    <br>\n\nIf you are not yet comfortable with sending any young person back to school, we are still available to offer our support to our students and their families. We want to help maintain student welfare at this difficult time."
+content = "    <br>\n\nWe are using personal protective equipment (PPE), regularly cleaning vehicles and introducing protective shields (where travel is involved), practising social distancing where possible and regularly testing.\n\n    <br>"
 heading = ""
 [[page_sections.text_section]]
 content = "    <br>\n\nIf you have any questions or queries, please do not hesitate to get in touch."
