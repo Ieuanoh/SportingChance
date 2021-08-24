@@ -30,7 +30,7 @@ buttonlink = "/about"
 buttontext = "Read More"
 header = "About Us"
 left-align = false
-main_text = "Sporting Chance Project: Is an Alternative Learning Provider who work  with young people to fulfill the potential they all possess.\n\nWe engage with parents & fellow professionals to secure real  outcomes to support the young persons life journey.  We provide  education with emphasis on Functional Mathematics, English & Sport  are at the heart of the project but with many full time education &  vocational packages available."
+main_text = "Sporting Chance Project: Is an Alternative Learning Provider who work  with young people to fulfill the potential they all possess.\n\nWe engage with parents & fellow professionals to secure real  outcomes to support the young person's life journey.  We provide  education with emphasis on Functional Mathematics, English & Sport  are at the heart of the project but with many full time education &  vocational packages available."
 template = "centred-text"
 text_section = []
 [[page_sections]]
