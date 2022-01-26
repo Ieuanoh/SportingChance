@@ -23,6 +23,12 @@ heading = "Our Mission"
 content = "The project delivers a range of education, employment and sport-based   activities to enhance students in their careers to meet the demands of   the ever-changing further/higher education and employment markets.      Our  activities cover various sports, encourage healthy and positive   lifestyles, offer mentoring, teaching, leadership skills, while giving   young people exposure to the community and role models in sport."
 heading = "What we do"
 [[page_sections]]
+caption = "Now working as an apprentice ar Mercedes"
+header = "Success Stories"
+name = "Cory N"
+quote = "Sporting Chance was a great way for me to get back into school while having fun playing my favourite sports. My teachers at Sporting Chance were very helpful with getting me to focus on my school work and eventually getting me to work independently."
+template = "feedback-quote"
+[[page_sections]]
 buttonlink = "/contact"
 buttontext = "Contact Us"
 heading = "How can we help you?"
