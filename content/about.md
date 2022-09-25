@@ -4,7 +4,7 @@ title = "About Us"
 type = "page"
 [[page_sections]]
 alt = "Our story image"
-image = "/img/about.jpg"
+image = "/img/pexels-linkedin-sales-navigator-1251861.jpg"
 subtext = "From the football pitch to the classroom, learn about how Sporting chance helps opportunities grow"
 template = "generic-header"
 title = "Our Story"
