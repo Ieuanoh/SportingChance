@@ -9,23 +9,6 @@ herolink = "/contact"
 title = "Engagement & Mentoring Services For Young People"
 [[page_sections]]
 button = true
-buttonlink = "https://www.sportingchanceproject.co.uk/contact/"
-buttontext = "Get in touch"
-header = "COVID-19 update - Keeping our students safe"
-left-align = false
-main_text = ""
-template = "centred-text"
-[[page_sections.text_section]]
-content = "Sporting Chance Project is working in line with school and government guidance, and we want to reassure you of the safety measures we have put in place to protect both our students and staff."
-heading = ""
-[[page_sections.text_section]]
-content = "    <br>\n\nWe are using personal protective equipment (PPE), regularly cleaning vehicles and introducing protective shields (where travel is involved), practising social distancing where possible and regularly testing.\n\n    <br>"
-heading = ""
-[[page_sections.text_section]]
-content = "    <br>\n\nIf you have any questions or queries, please do not hesitate to get in touch."
-heading = ""
-[[page_sections]]
-button = true
 buttonlink = "/about"
 buttontext = "Read More"
 header = "About Us"
