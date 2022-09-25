@@ -13,7 +13,7 @@ buttonlink = "/about"
 buttontext = "Read More"
 header = "About Us"
 left-align = false
-main_text = "Sporting Chance Project is an Alternative Learning Provider that works with young people to fulfil the potential they all possess.\n\nWe engage with parents and fellow professionals to secure real outcomes to support the young person's life journey. We provide mentoring, education through functional skills, life skills coaching, and alternative learning provision for the construction industry.\n\nWe are experienced in working with children and young people with Special Educational Needs (SEN)."
+main_text = "Sporting Chance Project is an Alternative Learning Provider that works with young people to fulfil the potential they all possess.\n\nWe engage with parents and fellow professionals to secure real outcomes to support the young person's life journey. We provide mentoring, education through functional skills, life skills coaching and alternative learning provision for the construction industry.\n\nWe are experienced in working with children and young people with Special Educational Needs (SEN)."
 template = "centred-text"
 text_section = []
 [[page_sections]]
@@ -24,7 +24,7 @@ header_1 = "Education"
 header_2 = "Mentoring"
 header_3 = "Alternative Learning"
 template = "three-columns"
-text_1 = "We provide one-to-one tutoring in functional skills including Mathematics, English and IT. We also offer qualifications in life skills challenges, construction, and health and wellbeing."
+text_1 = "We provide one-to-one tutoring in functional skills including Mathematics, English and IT. We also offer qualifications in life skills challenges, construction and health and wellbeing."
 text_2 = "Our experienced team provides one-to-one mentoring and life skills coaching around society, community and social acceptance. This is designed to help children and young people manage all aspects of their life."
 text_3 = "We offer a dedicated learning hub for learners aged 14-18 years to gain skills in construction and catering. Our construction areas include Carpentry, Bricklaying, Plastering, Bike Mechanics and more."
 [[page_sections]]
