@@ -19,7 +19,7 @@ text_section = []
 [[page_sections]]
 bg_1 = "/img/brad-neathery-258926-unsplash.jpg"
 bg_2 = "/img/alejandro-escamilla-2-unsplash.jpg"
-bg_3 = "/img/javier-allegue-barros-761133-unsplash.jpg"
+bg_3 = "/img/pexels-pixabay-301703.jpg"
 header_1 = "Education"
 header_2 = "Mentoring"
 header_3 = "Alternative Learning"
