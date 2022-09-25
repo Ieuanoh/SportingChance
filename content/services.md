@@ -3,6 +3,8 @@ description = "The Sporting Chance Project provides a range of alternative educa
 title = "Our Services"
 type = "page"
 [[page_sections]]
+alt = ""
+image = "/img/untitled-design.png"
 subtext = "We provide 1 to 1 life skills and mentoring to our young people, with parents and educational authorities as an integral part of our process. We aim to offer services dependant on what the young person needs. Here's a selection of what we can offer. "
 template = "generic-header"
 title = "Our Offering"
