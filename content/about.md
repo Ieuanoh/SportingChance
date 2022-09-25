@@ -5,7 +5,7 @@ type = "page"
 [[page_sections]]
 alt = "Our story image"
 image = "/img/pexels-linkedin-sales-navigator-1251861.jpg"
-subtext = "From the football pitch to the classroom, learn about how Sporting chance helps opportunities grow"
+subtext = "Sporting Chance Project are passionate about every child's education and supporting those who face challenges with mainstream education, including Special Educational Needs."
 template = "generic-header"
 title = "Our Story"
 [[page_sections]]
