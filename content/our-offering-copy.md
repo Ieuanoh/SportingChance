@@ -18,10 +18,11 @@ page_sections:
       and social acceptance, which is designed to help children and young people manage
       all aspects of their life.
     iconalt: mentoring icon
-  - title: ''
-    icon: ''
-    copy: ''
-    iconalt: ''
+  - title: Alternative Learning Provision
+    icon: "/img/altedu.svg"
+    copy: 'A dedicated learning hub for learners aged 14-18 years to gain skills in
+      construction '
+    iconalt: alternative learning
 - template: feedback-quote
   header: Success Stories
   name: Cory O
