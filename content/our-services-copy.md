@@ -1,60 +1,58 @@
 ---
 type: page
-title: Our Services-(copy)
-description: The Sporting Chance Project provides a range of alternative education
-  services to meet the needs of young people
+title: Mentoring & Life Skills
+description: Sporting chance project offers mentoring, education and life skills coaching
+  to young people
 page_sections:
 - template: generic-header
-  title: Our Offering
+  title: Mentoring & Life Skills
   subtext: 'We provide 1 to 1 life skills and mentoring to our young people, with
     parents and educational authorities as an integral part of our process. We aim
     to offer services dependant on what the young person needs. Here''s a selection
     of what we can offer. '
   image: "/img/untitled-design-2.png"
-  alt: ''
+  alt: Student walking out glass door
 - template: icon-grid
   icon_boxes:
-  - copy: If mainstream education isn't providing what the person needs, we help them
-      get back on track with alternative learning plans and mentoring
-    title: Alternative Education
+  - copy: Special Educational Needs (SEN) provision for young people needing support
+      with behaviour, social, emotional and mental health needs
+    title: SEN Provision
     icon: "/img/altedu.svg"
-    iconalt: alternative education icon
-  - copy: We believe sport is a great way for individuals to build discipline and
-      creative thinking, helping them to grow in other areas of life
-    title: Sport Coaching
+    iconalt: special educational needs provision icon
+  - copy: 'Our dedicated and experienced mentors provide one-to-one mentoring and
+      life skills coaching around society, community and social acceptance '
+    title: Experienced Mentors
     icon: "/img/sportcoaching.svg"
-    iconalt: sport coaching icon
-  - copy: We help individuals gain a better understanding of fundemental mathematics
-      and other areas that can improve their day to day life
-    title: Functional Mathematics
+    iconalt: experienced mentors icon
+  - copy: We offer one-to-one tutoring in functional skills including Mathematics,
+      English and ICT
+    title: Tutoring
     icon: "/img/maths.svg"
-    iconalt: maths icon
-  - copy: We provide sound career advice for individuals looking to take the next
-      step in their lives, whether by helping them write a CV or apply for further
-      education
-    title: Career Coaching
+    iconalt: tutoring icon
+  - copy: Proven track record in helping students transition back into education or
+      onto further education settings
+    title: Transition Support
     icon: "/img/career.svg"
-    iconalt: career coaching icon
-  - copy: We can help source apprenticeships in Bristol and beyond for young people
-      looking to find a trade or long term employment
-    title: Apprenticeships
+    iconalt: transition support icon
+  - copy: Work experience and employment pathways for 14 to 18-year-olds
+    title: Career Pathways
     icon: "/img/apprentice.svg"
-    iconalt: alternative education icon
-  - copy: If a young person is struggling in school, we arrange educational interventions
-      with them and their educators to get to the root of the issue.
-    title: Educational Intervention
+    iconalt: career pathways icon
+  - copy: Breaking down barriers to learning with ASDAN, NOCN and BKSB qualifications
+      offered
+    title: Education
     icon: "/img/intervention.svg"
-    iconalt: sport coaching icon
-  - copy: We coach individuals who feel they are ready to return to mainstream education
-      and provide long term support to help them achieve results
-    title: Reintegration to school
+    iconalt: education icon
+  - copy: Offering a safe and nurturing environment where young people can build secure
+      relationships and develop trust
+    title: Nurturing Environment
     icon: "/img/school.svg"
     iconalt: reintegration to school
-  - copy: We work to help individuals achieve better results on their own, providing
-      a path to independence in the long term
-    title: Independent Learning
+  - copy: Helping young people find a passion and engaging them in activities they
+      enjoy, as well as aignposting and connecting young people into positive pathways
+    title: Engagement
     icon: "/img/book.svg"
-    iconalt: independent learning icon
+    iconalt: engagement icon
 - template: feedback-quote
   header: Success Stories
   name: Cory O
@@ -66,9 +64,19 @@ page_sections:
     the help I''ve received along the way. '
 - template: cta-block
   heading: How can we help you?
-  text: Find out more about our services and how we can help you.
+  text: Find out more about our mentoring and life skills services and how we can
+    help you.
   buttonlink: "/contact"
   buttontext: Contact Us
+- template: centred-text
+  button: true
+  main_text: Sporting Chance Project also has an Alternative Learning Provision. We
+    offer taster sessions in the construction industry for 14 to 18-year-olds.
+  buttontext: Find out more
+  header: Alternative Learning Provision
+  left-align: false
+  text_section: []
+  buttonlink: ''
 draft: true
 
 ---
