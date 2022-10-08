@@ -26,15 +26,6 @@ page_sections:
   bg_1: "/img/pexels-julia-m-cameron-4145354.jpg"
   bg_2: "/img/pexels-rodolfo-quiros-2219024.jpg"
   bg_3: "/img/pexels-andrea-piacquadio-3846258.jpg"
-- template: feedback-quote
-  header: Success Stories
-  name: Cory O
-  caption: Now travelling Australia and New Zealand
-  quote: 'Sporting Chance Project, in conjunction with my school, helped me to focus
-    on my academic studies, which allowed me to participate in sport alongside my
-    Maths and English qualifications. I am now travelling to New Zealand following
-    a two-year spell in Australia. This wouldn''t have been possible without all of
-    the help I''ve received along the way. '
 - template: centred-text
   left-align: true
   header: Mentoring & Life Skills
@@ -51,10 +42,36 @@ page_sections:
   buttontext: Find out more
   main_text: ''
   buttonlink: "/mentoring-life-skills"
+- template: feedback-quote
+  header: Success Stories
+  name: Cory O
+  caption: Now travelling Australia and New Zealand
+  quote: 'Sporting Chance Project, in conjunction with my school, helped me to focus
+    on my academic studies, which allowed me to participate in sport alongside my
+    Maths and English qualifications. I am now travelling to New Zealand following
+    a two-year spell in Australia. This wouldn''t have been possible without all of
+    the help I''ve received along the way. '
 - template: cta-block
   heading: How can we help you?
   text: Find out more about our services and how we can help you.
   buttonlink: "/contact"
   buttontext: Contact Us
+- template: centred-text
+  header: Alternative Learning Provision
+  button: true
+  buttonlink: alternative-learning
+  buttontext: Find out more
+  left-align: true
+  text_section:
+  - heading: ''
+    content: 'Our alternative learning provision caters for students 14 to 18 years
+      old that may not engage with traditional classroom learning. '
+  - heading: ''
+    content: Our specialist education site in Bristol offers a supportive environment
+      with directed learning provided one-to-one or in small groups.
+  - heading: ''
+    content: Young learners can use their skills and qualification to go on to an
+      apprenticeship, further education or employment.
+  main_text: ''
 
 ---
