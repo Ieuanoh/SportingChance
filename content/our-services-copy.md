@@ -1,7 +1,7 @@
 ---
 type: page
 title: Mentoring & Life Skills
-description: Sporting chance project offers mentoring, education and life skills coaching
+description: Sporting Chance Project offers mentoring, education and life skills coaching
   to young people
 page_sections:
 - template: generic-header
@@ -53,6 +53,15 @@ page_sections:
     title: Engagement
     icon: "/img/book.svg"
     iconalt: engagement icon
+- template: centred-text
+  button: true
+  main_text: Sporting Chance Project also has an Alternative Learning Provision. We
+    offer taster sessions in the construction industry for 14 to 18-year-olds.
+  buttontext: Find out more
+  header: Alternative Learning Provision
+  left-align: false
+  text_section: []
+  buttonlink: ''
 - template: feedback-quote
   header: Success Stories
   name: Cory O
@@ -68,15 +77,6 @@ page_sections:
     help you.
   buttonlink: "/contact"
   buttontext: Contact Us
-- template: centred-text
-  button: true
-  main_text: Sporting Chance Project also has an Alternative Learning Provision. We
-    offer taster sessions in the construction industry for 14 to 18-year-olds.
-  buttontext: Find out more
-  header: Alternative Learning Provision
-  left-align: false
-  text_section: []
-  buttonlink: ''
 draft: true
 
 ---
