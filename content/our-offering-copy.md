@@ -20,9 +20,9 @@ page_sections:
     in areas of construction, including carpentry, plastering, tiling, bricklaying,
     decorating and more.
   header_3: Construction Workshops
-  text_3: We offer construction workshops to help students build confidence by gaining
-    invaluable vocational hands-on experience in a supportive environment with directed
-    learning or small groups.
+  text_3: Our construction workshops help students build confidence by gaining invaluable
+    vocational hands-on experience in a supportive environment with directed learning
+    or small groups.
   bg_1: "/img/pexels-julia-m-cameron-4145354.jpg"
   bg_2: "/img/pexels-rodolfo-quiros-2219024.jpg"
   bg_3: "/img/pexels-andrea-piacquadio-3846258.jpg"
