@@ -53,17 +53,12 @@ page_sections:
   buttonlink: alternative-learning
   buttontext: Find out more
   left-align: true
-  text_section:
-  - heading: ''
-    content: 'Our alternative learning provision caters for students 14 to 18 years
-      old that may not engage with traditional classroom learning. '
-  - heading: ''
-    content: Our specialist education site in Bristol offers a supportive environment
-      with directed learning provided one-to-one or in small groups.
-  - heading: ''
-    content: Young learners can use their skills and qualification to go on to an
-      apprenticeship, further education or employment.
-  main_text: ''
+  text_section: []
+  main_text: Our alternative learning provision caters for students 14 to 18 years
+    old that may not engage with traditional classroom learning. The specialist education
+    site in Bristol offers a supportive environment with directed learning provided
+    one-to-one or in small groups. Young learners can use their skills and qualification
+    to go on to an apprenticeship, further education or employment.
 - template: cta-block
   heading: How can we help you?
   text: Find out more about our services and how we can help you.
