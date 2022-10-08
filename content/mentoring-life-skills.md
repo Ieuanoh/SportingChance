@@ -62,15 +62,6 @@ page_sections:
   left-align: false
   text_section: []
   buttonlink: ''
-- template: feedback-quote
-  header: Success Stories
-  name: Cory O
-  caption: Now travelling Australia and New Zealand
-  quote: 'Sporting Chance Project, in conjunction with my school, helped me to focus
-    on my academic studies, which allowed me to participate in sport alongside my
-    Maths and English qualifications. I am now travelling to New Zealand following
-    a two-year spell in Australia. This wouldn''t have been possible without all of
-    the help I''ve received along the way. '
 - template: cta-block
   heading: How can we help you?
   text: Find out more about our mentoring and life skills services and how we can
