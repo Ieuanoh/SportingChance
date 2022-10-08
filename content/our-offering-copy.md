@@ -26,19 +26,6 @@ page_sections:
   bg_1: "/img/pexels-julia-m-cameron-4145354.jpg"
   bg_2: "/img/pexels-rodolfo-quiros-2219024.jpg"
   bg_3: "/img/pexels-andrea-piacquadio-3846258.jpg"
-- template: icon-grid
-  icon_boxes:
-  - title: Mentoring & Life Skills
-    icon: "/img/school.svg"
-    copy: One-to-one mentoring and life skills coaching around society, community
-      and social acceptance, which is designed to help children and young people manage
-      all aspects of their life.
-    iconalt: mentoring icon
-  - title: Alternative Learning Provision
-    icon: "/img/altedu.svg"
-    copy: 'A dedicated learning hub for learners aged 14-18 years to gain skills in
-      construction '
-    iconalt: alternative learning
 - template: feedback-quote
   header: Success Stories
   name: Cory O
@@ -48,6 +35,22 @@ page_sections:
     Maths and English qualifications. I am now travelling to New Zealand following
     a two-year spell in Australia. This wouldn''t have been possible without all of
     the help I''ve received along the way. '
+- template: centred-text
+  left-align: true
+  header: Mentoring & Life Skills
+  text_section:
+  - heading: ''
+    content: Our experienced mentors provide one-to-one mentoring and life skills
+      coaching around society, community and social acceptance. We can help young
+      people transition back into education or further education settings.
+  - heading: ''
+    content: Our mentoring and life skills coaching are also available for young people
+      with Special Educational Needs (SEN) needing support with behaviour, social,
+      emotional and mental health needs.
+  button: true
+  buttontext: Find out more
+  main_text: ''
+  buttonlink: "/mentoring-life-skills"
 - template: cta-block
   heading: How can we help you?
   text: Find out more about our services and how we can help you.
