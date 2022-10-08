@@ -10,6 +10,22 @@ page_sections:
     to meet the needs of young people, including those with Special Educational Needs
   image: "/img/untitled-design-2.png"
   alt: ''
+- template: three-columns
+  header_1: Mentoring & Life Skills
+  text_1: One-to-one mentoring and life skills coaching around society, community
+    and social acceptance, which is designed to help children and young people manage
+    all aspects of their life.
+  header_2: Alternative Learning Provision
+  text_2: We offer a dedicated learning hub for learners aged 14 to 18 to gain skills
+    in areas of construction, including carpentry, plastering, tiling, bricklaying,
+    decorating and more.
+  header_3: Construction Workshops
+  text_3: We offer construction workshops to help students build confidence by gaining
+    invaluable vocational hands-on experience in a supportive environment with directed
+    learning or small groups.
+  bg_1: "/img/pexels-julia-m-cameron-4145354.jpg"
+  bg_2: "/img/pexels-rodolfo-quiros-2219024.jpg"
+  bg_3: "/img/pexels-andrea-piacquadio-3846258.jpg"
 - template: icon-grid
   icon_boxes:
   - title: Mentoring & Life Skills
