@@ -64,9 +64,5 @@ page_sections:
   text: Find out more about our services and how we can help you.
   buttonlink: "/contact"
   buttontext: Contact Us
-menu:
-  main:
-    name: Services 2
-    weight: 4
 
 ---
