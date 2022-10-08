@@ -51,11 +51,6 @@ page_sections:
     Maths and English qualifications. I am now travelling to New Zealand following
     a two-year spell in Australia. This wouldn''t have been possible without all of
     the help I''ve received along the way. '
-- template: cta-block
-  heading: How can we help you?
-  text: Find out more about our services and how we can help you.
-  buttonlink: "/contact"
-  buttontext: Contact Us
 - template: centred-text
   header: Alternative Learning Provision
   button: true
@@ -73,5 +68,10 @@ page_sections:
     content: Young learners can use their skills and qualification to go on to an
       apprenticeship, further education or employment.
   main_text: ''
+- template: cta-block
+  heading: How can we help you?
+  text: Find out more about our services and how we can help you.
+  buttonlink: "/contact"
+  buttontext: Contact Us
 
 ---
