@@ -34,13 +34,13 @@ page_sections:
     content: Our experienced mentors provide one-to-one mentoring and life skills
       coaching around society, community and social acceptance. We can help young
       people transition back into education or further education settings.
-  - heading: ''
-    content: Our mentoring and life skills coaching are also available for young people
-      with Special Educational Needs (SEN) needing support with behaviour, social,
-      emotional and mental health needs.
   button: true
   buttontext: Find out more
-  main_text: ''
+  main_text: Our experienced mentors provide one-to-one mentoring and life skills
+    coaching around society, community and social acceptance. We can help young people
+    transition back into education or further education settings. We can also support
+    young people with Special Educational Needs needing support with behaviour, social,
+    emotional and mental health needs.
   buttonlink: "/mentoring-life-skills"
 - template: feedback-quote
   header: Success Stories
