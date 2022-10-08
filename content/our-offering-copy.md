@@ -29,11 +29,7 @@ page_sections:
 - template: centred-text
   left-align: true
   header: Mentoring & Life Skills
-  text_section:
-  - heading: ''
-    content: Our experienced mentors provide one-to-one mentoring and life skills
-      coaching around society, community and social acceptance. We can help young
-      people transition back into education or further education settings.
+  text_section: []
   button: true
   buttontext: Find out more
   main_text: Our experienced mentors provide one-to-one mentoring and life skills
