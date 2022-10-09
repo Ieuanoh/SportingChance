@@ -34,6 +34,7 @@ fields:
   default: page
 pages:
 - content/about.md
+- content/alternative-learning-provision.md
 - content/contact.md
 - content/mentoring-life-skills.md
 - content/our-offering-copy.md
