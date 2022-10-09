@@ -12,14 +12,14 @@ page_sections:
   alt: Student in workshop
 - template: icon-grid
   icon_boxes:
-  - copy: Special Educational Needs (SEN) provision for young people needing support
-      with behaviour, social, emotional and mental health needs
-    title: SEN Provision
+  - copy: Our skilled tradesmen and experienced tutors provide nationally recognised
+      qualifications, including NOCN and ASDAN
+    title: Qualifications Provided
     icon: "/img/altedu.svg"
     iconalt: special educational needs provision icon
-  - copy: 'Our dedicated and experienced mentors provide one-to-one mentoring and
-      life skills coaching around society, community and social acceptance '
-    title: Experienced Mentors
+  - copy: Alternative learning provision that caters for students that may not engage
+      with traditional classroom learning
+    title: Hands-on Learning
     icon: "/img/sportcoaching.svg"
     iconalt: experienced mentors icon
   - copy: We offer one-to-one tutoring in functional skills including Mathematics,
