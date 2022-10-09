@@ -6,9 +6,8 @@ description: Sporting Chance Project offers alternative learning and constructio
 page_sections:
 - template: generic-header
   title: Alternative Learning Provision
-  subtext: Our experienced team provide one-to-one life skills and mentoring to our
-    young people, with parents and educational authorities as an integral part of
-    our process. We aim to offer services dependant on what the young person needs.
+  subtext: Our dedicated learning hub in Bristol allows learners aged 14-18 years
+    to gain skills in construction and supports career pathways
   image: "/img/mentoring-and-life-skills-1.png"
   alt: Student in workshop
 - template: icon-grid
