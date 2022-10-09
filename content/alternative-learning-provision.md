@@ -50,21 +50,6 @@ page_sections:
     icon: "/img/book.svg"
     iconalt: transport icon
 - template: centred-text
-  button: true
-  main_text: Sporting Chance Project's experienced team also offers education, mentoring
-    and life skills coaching to young people.
-  buttontext: Find out more
-  header: Mentoring & Life Skills
-  left-align: true
-  text_section: []
-  buttonlink: "/mentoring-life-skills"
-- template: cta-block
-  heading: How can we help you?
-  text: Find out more about our alternative learning provision and how we can help
-    you.
-  buttonlink: "/contact"
-  buttontext: Contact Us
-- template: centred-text
   header: Construction Workshops
   left-align: true
   main_text: 'Our construction workshops help students build confidence by gaining
@@ -76,6 +61,21 @@ page_sections:
   buttontext: Get in touch
   button: true
   text_section: []
+- template: cta-block
+  heading: How can we help you?
+  text: Find out more about our alternative learning provision and how we can help
+    you.
+  buttonlink: "/contact"
+  buttontext: Contact Us
+- template: centred-text
+  button: true
+  main_text: Sporting Chance Project's experienced team also offers education, mentoring
+    and life skills coaching to young people.
+  buttontext: Find out more
+  header: Mentoring & Life Skills
+  left-align: true
+  text_section: []
+  buttonlink: "/mentoring-life-skills"
 draft: true
 
 ---
