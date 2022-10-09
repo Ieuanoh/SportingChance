@@ -6,10 +6,9 @@ description: Sporting Chance Project offers mentoring, education and life skills
 page_sections:
 - template: generic-header
   title: Mentoring & Life Skills
-  subtext: 'We provide 1 to 1 life skills and mentoring to our young people, with
-    parents and educational authorities as an integral part of our process. We aim
-    to offer services dependant on what the young person needs. Here''s a selection
-    of what we can offer. '
+  subtext: Our experienced team provide one-to-one life skills and mentoring to our
+    young people, with parents and educational authorities as an integral part of
+    our process. We aim to offer services dependant on what the young person needs.
   image: "/img/untitled-design-2.png"
   alt: Student walking out glass door
 - template: icon-grid
