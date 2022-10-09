@@ -11,6 +11,14 @@ page_sections:
     our process. We aim to offer services dependant on what the young person needs.
   image: "/img/untitled-design-2.png"
   alt: Student walking out glass door
+- template: centred-text
+  header: What we offer through mentoring and life skills coaching
+  left-align: false
+  text_section: []
+  main_text: ''
+  button: false
+  buttonlink: ''
+  buttontext: ''
 - template: icon-grid
   icon_boxes:
   - copy: Special Educational Needs (SEN) provision for young people needing support
@@ -67,13 +75,5 @@ page_sections:
     help you.
   buttonlink: "/contact"
   buttontext: Contact Us
-- template: centred-text
-  header: What we offer through mentoring and life skills coaching
-  left-align: false
-  text_section: []
-  main_text: ''
-  button: false
-  buttonlink: ''
-  buttontext: ''
 
 ---
