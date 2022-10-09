@@ -67,5 +67,13 @@ page_sections:
     help you.
   buttonlink: "/contact"
   buttontext: Contact Us
+- template: centred-text
+  header: What we offer through mentoring and life skills coaching
+  left-align: false
+  text_section: []
+  main_text: ''
+  button: false
+  buttonlink: ''
+  buttontext: ''
 
 ---
