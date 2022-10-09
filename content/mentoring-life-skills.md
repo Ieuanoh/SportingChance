@@ -56,7 +56,7 @@ page_sections:
     icon: "/img/school.svg"
     iconalt: reintegration to school
   - copy: Helping young people find a passion and engaging them in activities they
-      enjoy, as well as aignposting and connecting young people into positive pathways
+      enjoy, as well as signposting and connecting young people into positive pathways
     title: Engagement
     icon: "/img/book.svg"
     iconalt: engagement icon
