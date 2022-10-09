@@ -11,14 +11,6 @@ page_sections:
     our process. We aim to offer services dependant on what the young person needs.
   image: "/img/untitled-design-2.png"
   alt: Student walking out glass door
-- template: centred-text
-  header: What we offer through mentoring and life skills coaching
-  left-align: false
-  text_section: []
-  main_text: ''
-  button: false
-  buttonlink: ''
-  buttontext: ''
 - template: icon-grid
   icon_boxes:
   - copy: Special Educational Needs (SEN) provision for young people needing support
@@ -41,7 +33,7 @@ page_sections:
     title: Transition Support
     icon: "/img/career.svg"
     iconalt: transition support icon
-  - copy: Work experience and employment pathways for 14 to 18-year-olds
+  - copy: Work experience and employment pathways for 14 to 18 year olds
     title: Career Pathways
     icon: "/img/apprentice.svg"
     iconalt: career pathways icon
