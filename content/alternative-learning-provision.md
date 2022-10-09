@@ -1,16 +1,16 @@
 ---
 type: page
 title: Alternative Learning Provision
-description: Sporting Chance Project offers mentoring, education and life skills coaching
-  to young people
+description: Sporting Chance Project offers alternative learning and construction
+  workshops to young people
 page_sections:
 - template: generic-header
-  title: Mentoring & Life Skills
+  title: Alternative Learning Provision
   subtext: Our experienced team provide one-to-one life skills and mentoring to our
     young people, with parents and educational authorities as an integral part of
     our process. We aim to offer services dependant on what the young person needs.
-  image: "/img/untitled-design-2.png"
-  alt: Student walking out glass door
+  image: "/img/mentoring-and-life-skills-1.png"
+  alt: Student in workshop
 - template: icon-grid
   icon_boxes:
   - copy: Special Educational Needs (SEN) provision for young people needing support
