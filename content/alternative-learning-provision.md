@@ -55,7 +55,7 @@ page_sections:
     and life skills coaching to young people.
   buttontext: Find out more
   header: Mentoring & Life Skills
-  left-align: false
+  left-align: true
   text_section: []
   buttonlink: "/mentoring-life-skills"
 - template: cta-block
@@ -64,6 +64,18 @@ page_sections:
     you.
   buttonlink: "/contact"
   buttontext: Contact Us
+- template: centred-text
+  header: Construction Workshops
+  left-align: true
+  main_text: 'Our construction workshops help students build confidence by gaining
+    invaluable vocational hands-on experience in a supportive environment with directed
+    learning or small groups. The trades we cover include carpentry, plastering, tiling,
+    bricklaying, painting & decorating, bicycle & motorcycle mechanics, and catering.
+    They can be provided in half-day (3 hours) and full-day (5 hours) sessions. '
+  buttonlink: "/contact"
+  buttontext: Get in touch
+  button: true
+  text_section: []
 draft: true
 
 ---
