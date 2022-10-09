@@ -9,7 +9,7 @@ page_sections:
   subtext: Our experienced team provide one-to-one life skills and mentoring to our
     young people, with parents and educational authorities as an integral part of
     our process. We aim to offer services dependant on what the young person needs.
-  image: "/img/untitled-design-2.png"
+  image: "/img/mentoring-and-life-skills.png"
   alt: Student walking out glass door
 - template: icon-grid
   icon_boxes:
