@@ -53,17 +53,17 @@ page_sections:
     iconalt: engagement icon
 - template: centred-text
   button: true
-  main_text: Sporting Chance Project also has an Alternative Learning Provision. We
-    offer taster sessions in the construction industry for 14 to 18-year-olds.
+  main_text: Sporting Chance Project's experienced team also offers education, mentoring
+    and life skills coaching to young people.
   buttontext: Find out more
-  header: Alternative Learning Provision
+  header: Mentoring & Life Skills
   left-align: false
   text_section: []
-  buttonlink: ''
+  buttonlink: "/mentoring-life-skills"
 - template: cta-block
   heading: How can we help you?
-  text: Find out more about our mentoring and life skills services and how we can
-    help you.
+  text: Find out more about our alternative learning provision and how we can help
+    you.
   buttonlink: "/contact"
   buttontext: Contact Us
 draft: true
