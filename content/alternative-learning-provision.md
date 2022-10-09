@@ -12,45 +12,43 @@ page_sections:
   alt: Student in workshop
 - template: icon-grid
   icon_boxes:
+  - copy: The trades we cover include carpentry, bricklaying, plastering, painting
+      & decorating, tiling, bicycle & motorcycle mechanics and catering
+    title: Construction Trades
+    icon: "/img/school.svg"
+    iconalt: trades icon
   - copy: Our skilled tradesmen and experienced tutors provide nationally recognised
       qualifications, including NOCN and ASDAN
     title: Qualifications Provided
     icon: "/img/altedu.svg"
-    iconalt: special educational needs provision icon
+    iconalt: qualifications icon
   - copy: Alternative learning provision that caters for students that may not engage
       with traditional classroom learning
-    title: Hands-on Learning
+    title: Alternative Learning
     icon: "/img/sportcoaching.svg"
-    iconalt: experienced mentors icon
-  - copy: We offer one-to-one tutoring in functional skills including Mathematics,
-      English and ICT
-    title: Tutoring
+    iconalt: learning icon
+  - copy: A supportive environment with directed learning one-to-one or in small groups
+    title: Supportive Environment
     icon: "/img/maths.svg"
-    iconalt: tutoring icon
-  - copy: Proven track record in helping students transition back into education or
-      onto further education settings
-    title: Transition Support
-    icon: "/img/career.svg"
-    iconalt: transition support icon
-  - copy: Work experience and employment pathways for 14 to 18 year olds
+    iconalt: supportive environment icon
+  - copy: Young learners can use their skills and qualification to go on to an apprenticeship,
+      further education or employment
     title: Career Pathways
-    icon: "/img/apprentice.svg"
+    icon: "/img/career.svg"
     iconalt: career pathways icon
-  - copy: Breaking down barriers to learning with ASDAN, NOCN and BKSB qualifications
-      offered
-    title: Education
+  - copy: Transition support to meet future student pathways
+    title: Transition Support
+    icon: "/img/apprentice.svg"
+    iconalt: transition support icon
+  - copy: Students build confidence by gaining invaluable vocational hands-on experience
+    title: Hands-on Learning
     icon: "/img/intervention.svg"
     iconalt: education icon
-  - copy: Offering a safe and nurturing environment where young people can build secure
-      relationships and develop trust
-    title: Nurturing Environment
-    icon: "/img/school.svg"
-    iconalt: reintegration to school
-  - copy: Helping young people find a passion and engaging them in activities they
-      enjoy, as well as signposting and connecting young people to positive pathways
-    title: Engagement
+  - copy: Transportation offered for 2+ students from school to our specialist education
+      site in Brislington, Bristol
+    title: Transport Provided
     icon: "/img/book.svg"
-    iconalt: engagement icon
+    iconalt: transport icon
 - template: centred-text
   button: true
   main_text: Sporting Chance Project's experienced team also offers education, mentoring
