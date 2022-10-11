@@ -58,9 +58,9 @@ page_sections:
     offer taster sessions in the construction industry for 14 to 18-year-olds.
   buttontext: Find out more
   header: Alternative Learning Provision
-  left-align: false
+  left-align: true
   text_section: []
-  buttonlink: ''
+  buttonlink: "/alternative-learning-provision"
 - template: cta-block
   heading: How can we help you?
   text: Find out more about our mentoring and life skills services and how we can
