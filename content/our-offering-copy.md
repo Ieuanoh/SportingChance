@@ -50,7 +50,7 @@ page_sections:
 - template: centred-text
   header: Alternative Learning Provision
   button: true
-  buttonlink: alternative-learning
+  buttonlink: "/alternative-learning"
   buttontext: Find out more
   left-align: true
   text_section: []
