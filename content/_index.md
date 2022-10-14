@@ -11,7 +11,7 @@ title = "Engagement & Mentoring Services For Young People"
 button = true
 buttonlink = "/about"
 buttontext = "Read More"
-header = "About Us"
+header = "How can we help you, your school and students?"
 left-align = false
 main_text = "Sporting Chance Project is an Alternative Learning Provider that works with young people to fulfil the potential they all possess.\n\nWe engage with parents and fellow professionals to secure real outcomes to support the young person's life journey. We provide mentoring, education through functional skills, life skills coaching and alternative learning provision for the construction industry.\n\nWe are experienced in working with children and young people with Special Educational Needs (SEN)."
 template = "centred-text"
@@ -46,5 +46,14 @@ src = "/img/newhorizons_header2.jpg"
 [[page_sections.partner_logos]]
 name = "South Gloucester council"
 src = "/img/southglos.png"
+[[page_sections]]
+button = false
+buttonlink = ""
+buttontext = ""
+header = ""
+left-align = false
+main_text = ""
+template = "centred-text"
+text_section = []
 
 +++
