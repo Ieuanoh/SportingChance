@@ -46,14 +46,5 @@ src = "/img/newhorizons_header2.jpg"
 [[page_sections.partner_logos]]
 name = "South Gloucester council"
 src = "/img/southglos.png"
-[[page_sections]]
-button = false
-buttonlink = ""
-buttontext = ""
-header = ""
-left-align = false
-main_text = ""
-template = "centred-text"
-text_section = []
 
 +++
