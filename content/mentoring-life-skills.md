@@ -67,9 +67,5 @@ page_sections:
     help you.
   buttonlink: "/contact"
   buttontext: Contact Us
-menu:
-  main:
-    weight: 1
-    parent: Services
 
 ---
