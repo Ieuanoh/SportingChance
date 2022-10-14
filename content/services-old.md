@@ -1,5 +1,6 @@
 +++
 description = "Sporting Chance Project provides a range of alternative education services to meet the needs of young people"
+draft = true
 title = "Our Offering"
 type = "page"
 [[page_sections]]
