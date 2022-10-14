@@ -28,6 +28,15 @@ text_1 = "We provide one-to-one tutoring in functional skills including Mathemat
 text_2 = "Our experienced team provides one-to-one mentoring and life skills coaching around society, community and social acceptance. This is designed to help children and young people manage all aspects of their life."
 text_3 = "We offer a dedicated learning hub for learners aged 14-18 years to gain skills in construction and catering. Our construction areas include Carpentry, Bricklaying, Plastering, Bike Mechanics and more."
 [[page_sections]]
+button = true
+buttonlink = "/services"
+buttontext = "Learn more about our services"
+header = "Ready to overcome the challenges you face?"
+left-align = false
+main_text = "Do you have children and young people who...\n\n* Struggle in the classroom or school environment?\n* Need direction as they are unsure of future pathways?\n* Could benefit from practical learning through construction trade tasters?\n* Have Special Educational Needs (SEMH ASD students) with or without EHCP that would benefit from additional support?\n* Require support with life in general?\n\nWe can help you, your school and your students!"
+template = "centred-text"
+text_section = []
+[[page_sections]]
 caption = "Mother of a student"
 header = "Success Stories"
 name = "Mrs K"
