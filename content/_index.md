@@ -33,7 +33,7 @@ buttonlink = "/services"
 buttontext = "Learn more about our services"
 header = "Ready to overcome the challenges you face?"
 left-align = false
-main_text = "    Do you have children and young people who...\n    <br>\n    <br>\n    - Struggle in the classroom or school environment?</li>\n    <br>\n    - Need direction as they are unsure of future pathways?</li>\n    <br>\n    - Could benefit from practical learning through construction trade tasters?</li>\n    <br>\n    - Have Special Educational Needs (SEMH ASD students) with or without EHCP that would benefit from additional support?</li>\n    <br>\n    - Require support with life in general?</li>\n    <br>\n    <br>\n    We can help you, your school and your students!"
+main_text = "    Do you have children and young people who...\n    <br>\n    <br>\n    - Struggle in the classroom or school environment?</li>\n    <br>\n    - Need direction as they are unsure of future pathways?</li>\n    <br>\n    - Could benefit from practical construction trade tasters?</li>\n    <br>\n    - Have Special Educational Needs (SEMH/ASD) and need additional support?</li>\n    <br>\n    - Require support with life in general?</li>\n    <br>\n    <br>\n    We can help you, your school and your students!"
 template = "centred-text"
 text_section = []
 [[page_sections]]
