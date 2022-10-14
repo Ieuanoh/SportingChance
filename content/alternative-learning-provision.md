@@ -76,5 +76,10 @@ page_sections:
   left-align: true
   text_section: []
   buttonlink: "/mentoring-life-skills"
+menu:
+  main:
+    name: Alternative Learning
+    weight: 2
+    parent: Services
 
 ---
