@@ -22,9 +22,9 @@ page_sections:
     title: Qualifications Provided
     icon: "/img/altedu.svg"
     iconalt: qualifications icon
-  - copy: Alternative learning provision that caters for students that may not engage
-      with traditional classroom learning
-    title: Alternative Learning
+  - copy: Caters for students that may not engage with traditional classroom learning
+      and builds confidence by gaining invaluable vocational hands-on experience.
+    title: Hands-on Learning
     icon: "/img/sportcoaching.svg"
     iconalt: learning icon
   - copy: A supportive environment with directed learning one-to-one or in small groups
@@ -42,7 +42,7 @@ page_sections:
     icon: "/img/apprentice.svg"
     iconalt: transition support icon
   - copy: Students build confidence by gaining invaluable vocational hands-on experience
-    title: Hands-on Learning
+    title: Six week tasters
     icon: "/img/intervention.svg"
     iconalt: education icon
   - copy: Transportation offered for 2+ students from school to our specialist education
