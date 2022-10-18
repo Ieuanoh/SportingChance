@@ -58,7 +58,7 @@ page_sections:
         Our alternative learning provision caters for students that may not engage with traditional classroom learning. Our specialist education site in Bristol offers a supportive environment with directed learning provided one-to-one or in small groups. Young learners can use their skills and qualification to go on to an apprenticeship, further education or employment.
         <br>
         <br>
-        We offer:
+        We can offer:
         <br>
         <br>
         - Construction workshops
