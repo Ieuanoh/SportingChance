@@ -9,6 +9,16 @@ languageCode = "en-us"
 relativeURLs = false
 title = "Sporting Chance"
 [[menu.main]]
+name = "ALP"
+parent = "Services"
+url = "/alternative-learning-provision"
+weight = 2
+[[menu.main]]
+name = "Mentoring"
+parent = "Services"
+url = "/mentoring-life-skills"
+weight = 1
+[[menu.main]]
 name = "About Us"
 url = "/about"
 weight = 1
