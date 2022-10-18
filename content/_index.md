@@ -24,7 +24,7 @@ header_1 = "Education"
 header_2 = "Mentoring"
 header_3 = "Alternative Learning"
 template = "three-columns"
-text_1 = "We provide one-to-one tutoring in functional skills including Mathematics, English and IT. We also offer qualifications in life skills challenges, construction and health and wellbeing."
+text_1 = "We provide one-to-one tutoring in functional skills including Maths, English and IT. We also offer qualifications in life skills challenges, construction and health and wellbeing."
 text_2 = "Our experienced team provides one-to-one mentoring and life skills coaching around society, community and social acceptance. This is designed to help children and young people manage all aspects of their life."
 text_3 = "We offer a dedicated learning hub for learners aged 14-18 years to gain skills in construction and catering. Our construction areas include Carpentry, Bricklaying, Plastering, Bike Mechanics and more."
 [[page_sections]]
