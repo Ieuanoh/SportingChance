@@ -5,7 +5,7 @@ type = "page"
 [[page_sections]]
 alt = ""
 image = ""
-subtext = ""
+subtext = "Call 0117 203 4322, email admin@sportingchanceproject.co.uk, or submit the form below:"
 template = "generic-header"
 title = "Contact Us"
 [[page_sections]]
