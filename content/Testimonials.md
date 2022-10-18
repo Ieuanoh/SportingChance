@@ -51,15 +51,5 @@ page_sections:
   button: false
   buttonlink: ''
   buttontext: ''
-- template: centred-text
-  main_text: '    <iframe width="560" height="315" src="https://www.youtube.com/embed/yPpazvJrHm0"
-    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-  left-align: false
-  header: ''
-  text_section: []
-  button: false
-  buttonlink: ''
-  buttontext: ''
 
 ---
