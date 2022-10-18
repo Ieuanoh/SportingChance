@@ -20,11 +20,18 @@ page_sections:
     goes above and beyond. Thank you, Tony. Your support has changed my son's life
   name: Mrs K
   caption: Mother of a student
-  header: ''
+  header: Success Stories
+- template: feedback-quote
+  header: Success Stories
+  name: Cory N
+  caption: Now working as an apprentice at Mercedes
+  quote: Sporting Chance was a great way for me to get back into school while having
+    fun playing my favourite sports. My teachers at Sporting Chance were very helpful
+    with getting me to focus on my school work and eventually getting me to work independently.
 - template: feedback-quote
   header: Success Stories
   name: James
-  caption: Now working as an apprentice at Mercedes
+  caption: Now working as an apprentice ar Mercedes
   quote: Sporting Chance was a great way for me to get back into school while having
     fun playing my favourite sports. My teachers at Sporting Chance were very helpful
     with getting me to focus on my school work and eventually getting me to work independently.
