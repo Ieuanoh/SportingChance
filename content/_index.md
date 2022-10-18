@@ -2,8 +2,8 @@
 description = "Sporting Chance Project is an Alternative Learning Provider which aims to meet the educational, social and lifestyle needs of young people."
 hero_banner = true
 hero_bg = "/img/hero-alt.jpg"
-hero_sub = "Sporting Chance Project is an Alternative Learning Provider that offers mentoring, education and life skills coaching to young people with Special Educational Needs"
-hero_text = "Engage, Mentor, Educate"
+hero_sub = "Sporting Chance Project is an Alternative Learning Provider that offers mentoring, education and life skills coaching to children and young people with Special Educational Needs or an Education Health and Care Plan."
+hero_text = "Alternative Learning Provision. Engage, Mentor, Educate."
 herobuttontext = "Get in touch"
 herolink = "/contact"
 title = "Engagement & Mentoring Services For Young People"
