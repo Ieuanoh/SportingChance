@@ -19,10 +19,10 @@ page_sections:
   text_2: We offer a dedicated learning hub for learners aged 14 to 18 to gain skills
     in areas of construction, including carpentry, plastering, tiling, bricklaying,
     decorating and more.
-  header_3: Construction Workshops
-  text_3: Our construction workshops help students build confidence by gaining invaluable
-    vocational hands-on experience in a supportive environment with directed learning
-    or small groups.
+  header_3: ALP Construction Workshops
+  text_3: 'Our construction workshops help students gain invaluable vocational hands-on
+    experience in a supportive environment with directed learning or small groups.
+    Trades include bricklaying, plastering, tiling, decorating, plumbing and more. '
   bg_1: "/img/1.png"
   bg_2: "/img/2.png"
   bg_3: "/img/3.png"
