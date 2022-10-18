@@ -17,7 +17,7 @@ left-align = true
 main_text = ""
 template = "centred-text"
 [[page_sections.text_section]]
-content = "\n    Sporting Chance Project is an independently run project aiming to meet the educational, employment and lifestyle needs of young people.\n    <br>\n    <br>\n    We offer a wide range of education, mentoring and life skills support for young people aged 7 to 19 years old and operate as an Alternative Learning Provider.\n    <br>\n    <br>\n    Sporting Chance Project was formed in September 2012 and has evolved since 2002 having delivered within schools, special educational needs schools (SEN), further education establishments and young offenders institutes."
+content = "    Sporting Chance Project is an independently run project aiming to meet the educational, employment and lifestyle needs of young people.\n    <br>\n    <br>\n    We offer a wide range of education, mentoring and life skills support for young people aged 7 to 19 years old and operate as an Alternative Learning Provider.\n    <br>\n    <br>\n    Sporting Chance Project was formed in September 2012 and has evolved since 2002 having delivered within schools, special educational needs schools (SEN), further education establishments and young offenders institutes.\n    <br>\n    <br>"
 heading = "Our Mission"
 [[page_sections.text_section]]
 content = "The project delivers a range of education, employment and sport-based   activities to enhance students in their careers to meet the demands of   the ever-changing further/higher education and employment markets.      Our  activities cover various sports, encourage healthy and positive   lifestyles, offer mentoring, teaching, leadership skills, while giving   young people exposure to the community and role models in sport."
