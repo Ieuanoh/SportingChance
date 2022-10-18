@@ -67,9 +67,9 @@ page_sections:
         <br>
         - Personal social development
         <br>
-        - Life skills challenges including living independently & managing money
+        - Life skills challenges including living independently and managing money
         <br>
-        - Health, fitness & well-being
+        - Health, fitness and well-being
         <br>
 - template: cta-block
   heading: How can we help you?
