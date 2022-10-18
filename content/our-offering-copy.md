@@ -13,8 +13,8 @@ page_sections:
 - template: three-columns
   header_1: Mentoring & Life Skills
   text_1: Designed to help children and young people manage all aspects of their life,
-    we offer one-to-one mentoring, life skills coaching around society, community
-    & social acceptance, and health, fitness & well-being.
+    we offer one-to-one mentoring and life skills coaching around society, community
+    and social acceptance, as well as health, fitness and well-being.
   header_2: Alternative Learning Provision
   text_2: 'We offer learners of all ages bespoke learning to meet individual needs.
     Primarily through 1 to 1 tuition, we offer functional skills in Maths, English
