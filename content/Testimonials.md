@@ -45,6 +45,5 @@ page_sections:
   button: false
   buttonlink: ''
   buttontext: ''
-draft: true
 
 ---
