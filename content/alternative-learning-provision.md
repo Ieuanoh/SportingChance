@@ -12,8 +12,8 @@ page_sections:
   alt: Student in workshop
 - template: icon-grid
   icon_boxes:
-  - copy: The trades we cover include carpentry, bricklaying, plastering, painting
-      & decorating, tiling, bicycle & motorcycle mechanics and catering
+  - copy: The trades we cover include carpentry, bricklaying, plastering, plumbing,
+      painting & decorating, tiling, bicycle & motorcycle mechanics and catering
     title: Construction Trades
     icon: "/img/school.svg"
     iconalt: trades icon
