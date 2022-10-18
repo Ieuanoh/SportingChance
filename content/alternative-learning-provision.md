@@ -55,11 +55,12 @@ page_sections:
 - template: centred-text
   header: Construction Workshops
   left-align: true
-  main_text: 'Our construction workshops help students build confidence by gaining
+  main_text: Our construction workshops help students build confidence by gaining
     invaluable vocational hands-on experience in a supportive environment with directed
     learning or small groups. The trades we cover include carpentry, plastering, tiling,
-    bricklaying, painting & decorating, bicycle & motorcycle mechanics, and catering.
-    They can be provided in half-day (3 hours) and full-day (5 hours) sessions. '
+    bricklaying, plumbing, painting & decorating, bicycle & motorcycle mechanics,
+    and catering. They can be provided in half-day (3 hours) and full-day (5 hours)
+    sessions.
   buttonlink: "/contact"
   buttontext: Get in touch
   button: true
