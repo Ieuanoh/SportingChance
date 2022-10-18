@@ -12,14 +12,13 @@ page_sections:
   alt: ''
 - template: three-columns
   header_1: Mentoring & Life Skills
-  text_1: One-to-one mentoring and life skills coaching around society, community
-    and social acceptance, which is designed to help children and young people manage
-    all aspects of their life.
+  text_1: Designed to help children and young people manage all aspects of their life,
+    we offer one-to-one mentoring, life skills coaching around society, community
+    & social acceptance, and health, fitness & well-being.
   header_2: Alternative Learning Provision
   text_2: 'We offer learners of all ages bespoke learning to meet individual needs.
     Primarily through 1 to 1 tuition, we offer functional skills in Maths, English
-    & ICT, personal social development, life skills challenges including living independently
-    & managing money, and health, fitness & well-being. '
+    & ICT, personal social development and life skills challenges. '
   header_3: Construction Workshops
   text_3: 'Our construction workshops help students gain invaluable vocational hands-on
     experience in a supportive environment with directed learning or small groups.
