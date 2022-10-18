@@ -41,8 +41,10 @@ page_sections:
     title: Transition Support
     icon: "/img/apprentice.svg"
     iconalt: transition support icon
-  - copy: Students build confidence by gaining invaluable vocational hands-on experience
-    title: Six week tasters
+  - copy: 'We offer free half-day taster sessions for all our trades. If it''s the
+      right pathway for the student, full-day or half-day workshops can be booked
+      in six-week (term time) blocks. '
+    title: Taster sessions
     icon: "/img/intervention.svg"
     iconalt: education icon
   - copy: Transportation offered for 2+ students from school to our specialist education
