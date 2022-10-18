@@ -37,6 +37,14 @@ page_sections:
     Maths and English qualifications. I am now travelling to New Zealand following
     a two-year spell in Australia. This wouldn't have been possible without all of
     the help I've received along the way.
+- template: centred-text
+  header: More testimonials coming soon
+  left-align: false
+  text_section: []
+  main_text: ''
+  button: false
+  buttonlink: ''
+  buttontext: ''
 draft: true
 
 ---
