@@ -16,10 +16,11 @@ page_sections:
     and social acceptance, which is designed to help children and young people manage
     all aspects of their life.
   header_2: Alternative Learning Provision
-  text_2: We offer a dedicated learning hub for learners aged 14 to 18 to gain skills
-    in areas of construction, including carpentry, plastering, tiling, bricklaying,
-    decorating and more.
-  header_3: ALP Construction Workshops
+  text_2: 'We offer learners of all ages bespoke learning to meet individual needs.
+    Primarily through 1 to 1 tuition, we offer Functional Skills in Maths, English
+    & ICT, personal social development, life skills challenges including living independently
+    & managing money, and health, fitness & well-being. '
+  header_3: Construction Workshops
   text_3: 'Our construction workshops help students gain invaluable vocational hands-on
     experience in a supportive environment with directed learning or small groups.
     Trades include bricklaying, plastering, tiling, decorating, plumbing and more. '
