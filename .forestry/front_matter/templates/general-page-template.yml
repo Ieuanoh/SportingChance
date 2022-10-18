@@ -33,6 +33,7 @@ fields:
   hidden: true
   default: page
 pages:
+- content/Testimonials.md
 - content/about.md
 - content/alternative-learning-provision.md
 - content/contact.md
