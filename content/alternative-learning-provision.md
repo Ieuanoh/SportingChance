@@ -36,7 +36,8 @@ page_sections:
     title: Career Pathways
     icon: "/img/career.svg"
     iconalt: career pathways icon
-  - copy: Transition support to meet future student pathways
+  - copy: Work experience placements available for Year 11 and above, as well as transition
+      support to meet future student pathways.
     title: Transition Support
     icon: "/img/apprentice.svg"
     iconalt: transition support icon
