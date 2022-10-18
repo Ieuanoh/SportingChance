@@ -10,6 +10,12 @@ title: Testimonials
 description: Take a look at a selection of testimonials from our students, parents
   and schools.
 page_sections:
+- template: generic-header
+  title: Testimonials
+  subtext: Take a look at a selection of testimonials from our students, parents and
+    schools.
+  image: ''
+  alt: ''
 - template: feedback-quote
   quote: Throughout [my son]'s educational years, I have had to fight with professionals
     to get him an education. I was not one of these parents who didn’t care. Without
