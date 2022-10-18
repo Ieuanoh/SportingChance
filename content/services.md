@@ -63,7 +63,7 @@ page_sections:
         <br>
         - Construction workshops
         <br>
-        - Functional skills, including Maths, English and ICT
+        - Functional skills including Maths, English and ICT
         <br>
         - Personal social development
         <br>
