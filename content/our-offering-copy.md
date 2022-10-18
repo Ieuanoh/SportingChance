@@ -7,7 +7,7 @@ page_sections:
 - template: generic-header
   title: Our Services
   subtext: Sporting Chance Project provides a range of alternative education services
-    to meet the needs of young people, including those with Special Educational Needs
+    to meet the needs of young people, including those with Special Educational Needs.
   image: ''
   alt: ''
 - template: three-columns
