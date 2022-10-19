@@ -9,10 +9,6 @@ subtext = "Call 0117 203 4322, email admin@sportingchanceproject.co.uk, or submi
 template = "generic-header"
 title = "Contact Us"
 [[page_sections]]
-email = "admin@sportingchanceproject.co.uk"
-form_text = "Please use the form below to send us a message. "
-template = "contact-form"
-[[page_sections]]
 button = false
 buttonlink = ""
 buttontext = ""
