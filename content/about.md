@@ -5,7 +5,7 @@ type = "page"
 [[page_sections]]
 alt = "Our story image"
 image = "/img/mentoring-and-life-skills.png"
-subtext = "Sporting Chance Project are passionate about every child's education and life journey. For 10 years, we have supported those who face challenges with mainstream education, including Special Educational Needs."
+subtext = "Sporting Chance Project are passionate about every child's education and life journey. Our mission is to support those who face challenges with mainstream education, including Special Educational Needs."
 template = "generic-header"
 title = "Our Story"
 [[page_sections]]
@@ -18,7 +18,7 @@ main_text = ""
 template = "centred-text"
 [[page_sections.text_section]]
 content = "    Sporting Chance Project is an independently run project aiming to meet the educational, employment and lifestyle needs of young people.\n    <br>\n    <br>\n    We offer a wide range of education, mentoring and life skills support for young people aged 7 to 19 years old and operate as an Alternative Learning Provider.\n    <br>\n    <br>\n    Sporting Chance Project was formed in September 2012 and has evolved since 2002 having delivered within schools, special educational needs schools (SEN), further education establishments and young offenders institutes.\n    <br>\n    <br>"
-heading = "Our Mission"
+heading = "Our mission"
 [[page_sections.text_section]]
 content = "    The project delivers a range of pathways for all young people with bespoke outcomes to meet individual needs. This includes mentoring, life skills coaching, education transition, vocational learning, work experience and employment pathways. \n    <br>\n    <br>\n    Our aim is to enhance positive student experiences to meet the demands of the ever-changing social, community, educational and employment environments."
 heading = "What we do"
