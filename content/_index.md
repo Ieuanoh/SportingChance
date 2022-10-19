@@ -33,7 +33,7 @@ text_3 = "We offer a dedicated learning hub for learners aged 14-18 years to gai
 [[page_sections]]
 button = true
 buttonlink = "/services"
-buttontext = "Learn more about our services"
+buttontext = "Learn more"
 header = "Ready to overcome the challenges you face?"
 left-align = false
 main_text = "    Do you have children and young people who...\n    <br>\n    <br>\n    - Struggle in the classroom or school environment?</li>\n    <br>\n    - Need direction as they are unsure of future pathways?</li>\n    <br>\n    - Could benefit from practical construction trade tasters?</li>\n    <br>\n    - Have Special Educational Needs and need additional support?</li>\n    <br>\n    - Require support with life in general?</li>\n    <br>\n    <br>\n    We can help you, your school and your students!"
