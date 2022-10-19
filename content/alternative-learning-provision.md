@@ -7,7 +7,7 @@ page_sections:
 - template: generic-header
   title: Alternative Learning Provision
   subtext: Our dedicated learning hub in Bristol allows learners aged 14-18 years
-    to gain skills in construction and supports career pathways
+    to gain skills in construction and supports career pathways.
   image: "/img/mentoring-and-life-skills-1.png"
   alt: Student in workshop
 - template: icon-grid
