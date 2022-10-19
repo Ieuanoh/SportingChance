@@ -12,5 +12,14 @@ title = "Contact Us"
 email = "admin@sportingchanceproject.co.uk"
 form_text = "Please use the form below to send us a message. "
 template = "contact-form"
+[[page_sections]]
+button = false
+buttonlink = ""
+buttontext = ""
+header = ""
+left-align = false
+main_text = "    <script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/222916591903056\"></script>"
+template = "centred-text"
+text_section = []
 
 +++
