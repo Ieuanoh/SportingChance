@@ -7,7 +7,7 @@ alt = "Our story image"
 image = "/img/mentoring-and-life-skills.png"
 subtext = "Sporting Chance Project are passionate about every child's education and life journey. Our mission is to support those who face challenges with mainstream education, including Special Educational Needs."
 template = "generic-header"
-title = "Our Story"
+title = "About Us"
 [[page_sections]]
 button = false
 buttonlink = ""
