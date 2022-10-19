@@ -18,7 +18,7 @@ page_sections:
     icon: "/img/school.svg"
     iconalt: trades icon
   - copy: Our skilled tradesmen and experienced tutors provide nationally recognised
-      qualifications, including NOCN and ASDAN
+      qualifications, including NOCN and ASDAN.
     title: Qualifications Provided
     icon: "/img/altedu.svg"
     iconalt: qualifications icon
@@ -27,12 +27,12 @@ page_sections:
     title: Hands-on Learning
     icon: "/img/sportcoaching.svg"
     iconalt: learning icon
-  - copy: A supportive environment with directed learning one-to-one or in small groups
+  - copy: A supportive environment with directed learning one-to-one or in small groups.
     title: Supportive Environment
     icon: "/img/maths.svg"
     iconalt: supportive environment icon
   - copy: Young learners can use their skills and qualification to go on to an apprenticeship,
-      further education or employment
+      further education or employment.
     title: Career Pathways
     icon: "/img/career.svg"
     iconalt: career pathways icon
@@ -48,7 +48,7 @@ page_sections:
     icon: "/img/intervention.svg"
     iconalt: education icon
   - copy: Transportation offered for 2+ students from school to our specialist education
-      site in Brislington, Bristol
+      site in Brislington, Bristol.
     title: Transport Provided
     icon: "/img/book.svg"
     iconalt: transport icon
