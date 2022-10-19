@@ -17,7 +17,7 @@ page_sections:
     and social acceptance, as well as health, fitness and well-being.
   header_2: Alternative Learning Provision
   text_2: 'We offer learners of all ages bespoke learning to meet individual needs.
-    Primarily through 1 to 1 tuition, we offer functional skills in Maths, English
+    Primarily through one-to-one tuition, we offer functional skills in Maths, English
     & ICT, personal social development and life skills challenges. '
   header_3: Construction Workshops
   text_3: 'Our construction workshops help students gain invaluable vocational hands-on
