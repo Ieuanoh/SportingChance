@@ -11,27 +11,27 @@ title = "Sporting Chance"
 [[menu.main]]
 name = "Testimonials"
 url = "/testimonials"
-weight = 5
+weight = 6
 [[menu.main]]
 name = "ALP"
 url = "/alternative-learning-provision"
-weight = 4
+weight = 5
 [[menu.main]]
 name = "Mentoring"
 url = "/mentoring-life-skills"
-weight = 3
+weight = 4
 [[menu.main]]
 name = "About Us"
 url = "/about"
-weight = 1
+weight = 2
 [[menu.main]]
 name = "Services"
 url = "/services"
-weight = 2
+weight = 3
 [[menu.main]]
 name = "Contact"
 url = "/contact"
-weight = 6
+weight = 7
 [params]
 description = "The Sporting Chance Project is an Alternative Learning Provider which aims to meet the educational, social and lifestyle needs of young people"
 facebook = ""

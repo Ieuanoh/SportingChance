@@ -7,6 +7,9 @@ hero_text = "Alternative Learning. Engage, Mentor, Educate."
 herobuttontext = "Get in touch"
 herolink = "/contact"
 title = "Engagement & Mentoring Services For Young People"
+[menu.main]
+name = "Home"
+weight = 1
 [[page_sections]]
 button = true
 buttonlink = "/about"
