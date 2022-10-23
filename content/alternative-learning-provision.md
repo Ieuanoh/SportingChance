@@ -53,7 +53,7 @@ page_sections:
     icon: "/img/book.svg"
     iconalt: transport icon
 - template: centred-text
-  header: Construction Workshops
+  header: Alternative Learning
   left-align: true
   main_text: Our construction workshops help students build confidence by gaining
     invaluable vocational hands-on experience in a supportive environment with directed
