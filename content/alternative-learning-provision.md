@@ -1,11 +1,11 @@
 ---
 type: page
-title: Alternative Learning Provision
+title: Construction Workshops
 description: Sporting Chance Project offers alternative learning and construction
   workshops to young people
 page_sections:
 - template: generic-header
-  title: Alternative Learning Provision
+  title: Construction Workshops
   subtext: Our dedicated learning hub in Bristol allows learners aged 14-18 years
     to gain skills in construction and supports career pathways.
   image: "/img/mentoring-and-life-skills-1.png"
