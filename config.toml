@@ -13,7 +13,7 @@ name = "Testimonials"
 url = "/testimonials"
 weight = 6
 [[menu.main]]
-name = "Construction Workshops"
+name = "Construction"
 url = "/alternative-learning-provision"
 weight = 5
 [[menu.main]]
