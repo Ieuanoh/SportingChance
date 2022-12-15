@@ -41,3 +41,5 @@ twitter = ""
 changefreq = "monthly"
 filename = "sitemap.xml"
 priority = 0.5
+[security.funcs]
+getenv = [ "^HUGO_", "^WC_", "CONTEXT" ]
