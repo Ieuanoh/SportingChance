@@ -1,5 +1,18 @@
+The Sporting Chance website, built using Hugo.
+
 # Getting Started
 
 - Install Docker
 - cd into the directory and install dependencies with `yarn`
 - Run the local site: `yarn dev` - this will run a dockerised version of the site to save needing to install hugo locally, it will also compile the css and js assets in the `src` folder
+- Alternatively, you can run it with the hugo cli if you don't want to use docker
+
+## CMS
+
+- Forestry.io is currently setup as a static CMS for the site which links directly to the git repository - it writes it's content directly to the `/content` folder and all content can be found there. You can find global content in the `_index.md` file - additionally forestry writes some other metadata to the .forestry folder
+
+## Deployment
+
+- Netlify currently deploys the site on each push of the master branch of the repository
+
+TODO
