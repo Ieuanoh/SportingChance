@@ -4,7 +4,7 @@ The Sporting Chance website, built using Hugo.
 
 - Install Docker
 - cd into the directory and install dependencies with `yarn`
-- Run the local site: `yarn dev` - this will run a dockerised version of the site to save needing to install hugo locally, it will also compile the css and js assets in the `src` folder
+- Run the local site: `yarn dev` - this will run a dockerised version of the site to save needing to install hugo locally, it will also compile the css and js assets in the `src` folder - you can access the local site at http://localhost:1313
 - Alternatively, you can run it with the hugo cli if you don't want to use docker
 
 ## Making styling updates
