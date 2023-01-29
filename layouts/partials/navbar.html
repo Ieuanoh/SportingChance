@@ -1,11 +1,9 @@
 <header class="w-full fixed z-50 border pin-t z-50 sm:py-3 py-3 bg-white">
         <nav class="sm:flex px-8 justify-between relative z-50">
             <a class="no-underline" href="/">
-                <img src="/img/scplogo.png" class="sm:w-auto w-48" alt="sporting chance logo"/> 
+                <img src="/img/scplogo1.png" class="sm:w-auto w-48" alt="sporting chance logo"/> 
             </a>  
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+                
          <div class="flex items-center justify-between text-lg py-4 sm:py-0">
             {{ range .Site.Menus.main }} 
                 <a href="{{ .URL }}" class="no-underline text-black tracking-wide font-bold font-black sm:text-lg text-sm sm:px-3 px-0 uppercase">{{ .Name }}</a>
