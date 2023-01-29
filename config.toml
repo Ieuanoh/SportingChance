@@ -21,7 +21,7 @@ name = "Mentoring"
 url = "/mentoring-life-skills"
 weight = 4
 [[menu.main]]
-name = "About Us"
+name = "About"
 url = "/about"
 weight = 2
 [[menu.main]]
@@ -37,9 +37,9 @@ description = "The Sporting Chance Project is an Alternative Learning Provider w
 facebook = ""
 linkedin = ""
 twitter = ""
+[security.funcs]
+getenv = ["^HUGO_", "^WC_", "CONTEXT"]
 [sitemap]
 changefreq = "monthly"
 filename = "sitemap.xml"
 priority = 0.5
-[security.funcs]
-getenv = [ "^HUGO_", "^WC_", "CONTEXT" ]
