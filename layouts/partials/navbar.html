@@ -4,24 +4,14 @@
                 <img src="/img/logo.svg" class="sm:w-auto w-48" alt="sporting chance logo"/> 
             </a>  
 
-<nav class="navbar navbar-expand-md bg-dark navbar-dark">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>    
-    </ul>
-  </div>  
-</nav>
-<br>
-   
+         <div class="flex items-center justify-between text-lg py-4 sm:py-0">
+            {{ range .Site.Menus.main }} 
+                <a href="{{ .URL }}" class="no-underline text-black tracking-wide font-bold font-black sm:text-lg text-sm sm:px-3 px-0 uppercase">{{ .Name }}</a>
+            {{ end }}
+         </div>
+
+        </nav>
+</header>
+
+
+
