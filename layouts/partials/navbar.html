@@ -6,43 +6,22 @@
 
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
       aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            Menu
             <i class="fa fa-bars"></i>
           </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
           {{ $currentPage := . }}
-      <ul class="navbar-nav ml-auto">
           {{ range .Site.Menus.main }}
               <a href="{{ .URL }}" class="no-underline text-black tracking-wide font-bold font-black sm:text-lg text-sm sm:px-3 px-0 uppercase">{{ .Name }}</a>
-              {{ if .HasChildren }}
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="{{.URL}}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false">
               {{ .Pre }}
               <span>{{ .Name }}</span>
                 </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              {{ range .Children }}
-            <a class="dropdown-item" href="{{.URL}}">{{.Name}}</a>
-              {{ end }}
-          </div>
-        </li>
-        {{else}}
-        <li class="nav-item">
-          <a class="nav-link" href="{{.URL}}">
-            {{ .Pre }}
-              <span>{{ .Name }}</span>
-          </a>
-        </li>
-          {{end}}
-        {{end}}
-      </ul>
     </div>
-  </div>
   </nav>
 </header>
 
-
-
+    
 
    
