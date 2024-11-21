@@ -16,15 +16,18 @@ weight = 6
 name = "Construction"
 url = "/alternative-learning-provision"
 weight = 5
+parent = "services"
 [[menu.main]]
 name = "Mentoring"
 url = "/mentoring-life-skills"
 weight = 4
+parent = "services"
 [[menu.main]]
 name = "About"
 url = "/about"
 weight = 2
 [[menu.main]]
+identifier = "services"
 name = "Services"
 url = "/services"
 weight = 3

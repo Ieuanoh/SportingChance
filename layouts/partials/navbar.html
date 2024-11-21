@@ -1,17 +1,124 @@
-<header class="w-full fixed z-50 border pin-t z-50 sm:py-3 py-3 bg-white">
-        <nav class="sm:flex px-8 justify-between relative z-50">
-            <a class="no-underline" href="/">
-                <img src="/img/scplogo1.png" class="sm:w-auto w-48" alt="sporting chance logo"/> 
-            </a>  
-                
-         <div class="flex items-center justify-between text-lg py-4 sm:py-0">
-            {{ range .Site.Menus.main }} 
-                <a href="{{ .URL }}" class="no-underline text-black tracking-wide font-bold font-black sm:text-lg text-sm sm:px-3 px-0 uppercase">{{ .Name }}</a>
-            {{ end }}
-         </div>
-
-        </nav>
+<header class="w-full fixed z-50 pin-t bg-white">
+  <nav class="mx-auto flex items-center justify-between px-6 py-2" aria-label="Global">
+    <div class="flex justify-between">
+      <a href="/">
+        <img src="/img/scplogo1.png" class="w-48" alt="sporting chance logo" />
+      </a>
+    </div>
+    <div class="hidden lg:flex items-center justify-between text-lg py-4">
+      {{ range .Site.Menus.main }}
+      {{ if .HasChildren }}
+      <div class="flex flex-auto items-center px-3">
+        <a href="{{ .URL }}"
+          class="no-underline uppercase tracking-wide block rounded text-lg text-black font-black hover:underline">{{
+          .Name }}</a>
+        <button type="button" class="inline-flex rounded" id="lg-disclosure-button" aria-controls="disclosure-1"
+          aria-expanded="false">
+          <!--
+            Expand/collapse icon, toggle classes based on menu open state.
+          -->
+          <svg class="h-5 w-5 flex-none hidden" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+            data-slot="icon" id="lg-expand-menu-icon">
+            <path fill-rule="evenodd"
+              d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+              clip-rule="evenodd" />
+          </svg>
+          <svg class="h-5 w-5 flex-none" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon"
+            id="lg-collapse-menu-icon">
+            <path fill-rule="evenodd"
+              d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+              transform="rotate(180 10 10)" clip-rule="evenodd" />
+          </svg>
+        </button>
+      </div>
+      <!-- 
+        'Product' sub-menu, show/hide based on menu state.
+      -->
+      <div class="hidden fixed z-10 mt-24 ml-32" role="dialog" aria-modal="true" id="lg-services-menu">
+        <div class="ml-10 pl-4 pr-2 mt-4 bg-white">
+          {{ range .Children}}
+          <a href="{{ .URL }}"
+            class="no-underline uppercase tracking-wide -mx-3 block rounded px-3 py-2 text-black font-black hover:underline">{{
+            .Name }}</a>
+          {{ end }}
+        </div>
+      </div>
+      {{ else }}
+      <a href="{{ .URL }}" class="no-underline text-black tracking-wide rounded font-black text-lg px-3 uppercase hover:underline">{{
+        .Name }}</a>
+      {{ end }}
+      {{ end }}
+    </div>
+    <div class="flex lg:hidden">
+      <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded p-2.5 text-gray-700"
+        id="show-mobile-menu-btn">
+        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"
+          data-slot="icon">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </button>
+    </div>
+  </nav>
+  <!--
+    Mobile menu, show/hide based on menu open state.
+  -->
+  <div class="hidden lg:hidden pin-t pin-r fixed w-full sm:w-auto inset-y-0" role="dialog" aria-modal="true"
+    id="mobile-menu">
+    <div class="w-full sm:max-w-xs z-10 pin-r fixed overflow-y-auto bg-white px-6 py-2">
+      <div class="flex items-center justify-between sm:justify-end">
+        <a href="/" class="sm:hidden">
+          <img src="/img/scplogo1.png" class="w-48" alt="sporting chance logo" />
+        </a>
+        <button type="button" class="-m-2.5 rounded p-2.5 text-gray-700 sm:py-6" id="hide-mobile-menu-btn">
+          <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            aria-hidden="true" data-slot="icon">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+      <div class="mt-2">
+        {{ range .Site.Menus.main }}
+        {{ if .HasChildren }}
+        <div class="flex flex-auto items-center">
+          <a href="{{ .URL }}"
+            class="no-underline uppercase tracking-wide -mx-3 block rounded px-3 py-2 text-lg text-black font-black hover:underline">{{
+            .Name }}</a>
+          <button type="button" class="inline-flex" id="disclosure-button" aria-controls="disclosure-1"
+            aria-expanded="false">
+            <!--
+              Expand/collapse icon, toggle classes based on menu open state.
+            -->
+            <svg class="h-5 w-5 flex-none hidden" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+              data-slot="icon" id="expand-menu-icon">
+              <path fill-rule="evenodd"
+                d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                clip-rule="evenodd" />
+            </svg>
+            <svg class="h-5 w-5 flex-none" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon"
+              id="collapse-menu-icon">
+              <path fill-rule="evenodd"
+                d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                transform="rotate(180 10 10)" clip-rule="evenodd" />
+            </svg>
+          </button>
+        </div>
+        <!--
+          'Services' sub-menu, show/hide based on menu state. 
+        -->
+        <div class="ml-3" id="services-menu">
+          {{ range .Children}}
+          <a href="{{ .URL }}"
+            class="no-underline uppercase tracking-wide block rounded py-2 text-black font-black hover:underline">{{
+            .Name }}</a>
+          {{ end }}
+        </div>
+        {{ else }}
+        <a href="{{ .URL }}"
+          class="no-underline uppercase tracking-wide block rounded py-2 text-lg text-black font-black hover:underline">{{
+          .Name }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
 </header>
-
-
-
