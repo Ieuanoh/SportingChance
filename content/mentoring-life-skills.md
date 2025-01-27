@@ -37,7 +37,7 @@ page_sections:
     title: Career Pathways
     icon: "/img/apprentice.svg"
     iconalt: career pathways icon
-  - copy: Breaking down barriers to learning with ASDAN, NOCN and BKSB qualifications
+  - copy: Breaking down barriers to learning with ASDAN, and NOCN qualifications
       offered.
     title: Education
     icon: "/img/intervention.svg"
