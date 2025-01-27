@@ -23,7 +23,7 @@
              {{ .title }}
             </h3>
             <p class="text-md py-2 leading-normal">
-              {{ .copy }}
+              {{ .copy  | safeHTML }}
             </p>
           </div>
         </div>

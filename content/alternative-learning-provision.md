@@ -13,12 +13,13 @@ page_sections:
 - template: icon-grid
   icon_boxes:
   - copy: The trades we cover include carpentry, bricklaying, plastering, plumbing,
-      painting & decorating, tiling, bicycle & motorcycle mechanics and catering.
+      painting & decorating, tiling.<br/><br/> We also provide learning for 
+      catering, sport & fitness, and animal care.
     title: Construction Trades
     icon: "/img/school.svg"
     iconalt: trades icon
   - copy: Our skilled tradesmen and experienced tutors provide nationally recognised
-      qualifications, including NOCN and ASDAN.
+      qualifications, including NOCN, ASDAN and NCFE Functional Skills.
     title: Qualifications Provided
     icon: "/img/altedu.svg"
     iconalt: qualifications icon
@@ -57,10 +58,9 @@ page_sections:
   left-align: true
   main_text: Our construction workshops help students build confidence by gaining
     invaluable vocational hands-on experience in a supportive environment with directed
-    learning or small groups. The trades we cover include carpentry, plastering, tiling,
-    bricklaying, plumbing, painting & decorating, bicycle & motorcycle mechanics,
-    and catering. They can be provided in half-day (3 hours) and full-day (5 hours)
-    sessions.
+    learning or small groups.<br/><br/> The trades we cover include carpentry, plastering, tiling,
+    bricklaying, plumbing, painting & decorating. We also provide learning opportunities for 
+    catering, sport & fitness, and animal care.<br/><br/> All of which, can be provided at various levels to meet individual needs, in half-day (3 hours) and full-day (6 hours) sessions.
   buttonlink: "/contact"
   buttontext: Get in touch
   button: true
