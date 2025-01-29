@@ -9,29 +9,31 @@ languageCode = "en-us"
 relativeURLs = false
 title = "Sporting Chance"
 [[menu.main]]
-name = "Testimonials"
-url = "/testimonials"
-weight = 6
-[[menu.main]]
-name = "Construction"
-url = "/alternative-learning-provision"
-weight = 5
-[[menu.main]]
-name = "Mentoring"
-url = "/mentoring-life-skills"
-weight = 4
-[[menu.main]]
 name = "About"
 url = "/about"
-weight = 2
+weight = 20
 [[menu.main]]
 name = "Services"
 url = "/services"
-weight = 3
+weight = 30
+[[menu.main]]
+name = "Mentoring"
+url = "/mentoring-life-skills"
+weight = 1
+parent = "Services"
+[[menu.main]]
+name = "Construction"
+url = "/alternative-learning-provision"
+weight = 2
+parent = "Services"
+[[menu.main]]
+name = "Testimonials"
+url = "/testimonials"
+weight = 40
 [[menu.main]]
 name = "Contact"
 url = "/contact"
-weight = 7
+weight = 50
 [params]
 description = "The Sporting Chance Project is an Alternative Learning Provider which aims to meet the educational, social and lifestyle needs of young people"
 facebook = ""
