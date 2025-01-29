@@ -37,15 +37,13 @@
         <div class="ml-10 pl-4 pr-2 mt-4 bg-white">
           {{ range .Children}}
           <a href="{{ .URL }}"
-            class="no-underline uppercase tracking-wide -mx-3 block rounded px-3 py-2 text-black font-black hover:underline">{{
-            .Name }}</a>
+            class="no-underline uppercase tracking-wide -mx-3 block rounded px-3 py-2 text-black font-black hover:underline">{{ .Name }}</a>
           {{ end }}
         </div>
       </div>
       {{ else }}
       <a href="{{ .URL }}"
-        class="no-underline text-black tracking-wide rounded font-black text-lg px-3 uppercase hover:underline">{{
-        .Name }}</a>
+        class="no-underline text-black tracking-wide rounded font-black text-lg px-3 uppercase hover:underline">{{ .Name }}</a>
       {{ end }}
       {{ end }}
     </div>
@@ -81,8 +79,7 @@
         {{ if .HasChildren }}
         <div class="flex flex-auto items-center">
           <a href="{{ .URL }}"
-            class="no-underline uppercase tracking-wide -mx-3 block rounded px-3 py-2 text-lg text-black font-black hover:underline">{{
-            .Name }}</a>
+            class="no-underline uppercase tracking-wide -mx-3 block rounded px-3 py-2 text-lg text-black font-black hover:underline">{{ .Name }}</a>
           <button type="button" class="inline-flex" id="disclosure-button" aria-controls="disclosure-1"
             aria-expanded="false">
             <!--
@@ -108,14 +105,12 @@
         <div class="ml-3" id="services-menu">
           {{ range .Children}}
           <a href="{{ .URL }}"
-            class="no-underline uppercase tracking-wide block rounded py-2 text-black font-black hover:underline">{{
-            .Name }}</a>
+            class="no-underline uppercase tracking-wide block rounded py-2 text-black font-black hover:underline">{{ .Name }}</a>
           {{ end }}
         </div>
         {{ else }}
         <a href="{{ .URL }}"
-          class="no-underline uppercase tracking-wide block rounded py-2 text-lg text-black font-black hover:underline">{{
-          .Name }}</a>
+          class="no-underline uppercase tracking-wide block rounded py-2 text-lg text-black font-black hover:underline">{{ .Name }}</a>
         {{ end }}
         {{ end }}
       </div>
