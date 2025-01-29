@@ -8,33 +8,35 @@ googleAnalytics = ""
 languageCode = "en-us"
 relativeURLs = false
 title = "Sporting Chance"
-[[menu.main]]
-name = "Testimonials"
-url = "/testimonials"
-weight = 6
-[[menu.main]]
-name = "Construction"
-url = "/alternative-learning-provision"
-weight = 5
-parent = "services"
-[[menu.main]]
-name = "Mentoring"
-url = "/mentoring-life-skills"
-weight = 4
-parent = "services"
-[[menu.main]]
-name = "About"
-url = "/about"
-weight = 2
-[[menu.main]]
-identifier = "services"
-name = "Services"
-url = "/services"
-weight = 3
-[[menu.main]]
-name = "Contact"
-url = "/contact"
-weight = 7
+[menus]
+    [[menus.main]]
+        name = "About"
+        url = "/about"
+        weight = 20
+    [[menus.main]]
+        name = "Services"
+        url = "/services"
+        weight = 30
+    [[menus.main]]
+        name = "Mentoring"
+        url = "/mentoring-life-skills"
+        weight = 1
+        parent = "Services"
+    [[menus.main]]
+        name = "Construction"
+        url = "/alternative-learning-provision"
+        weight = 2
+        parent = "Services"
+    [[menus.main]]
+        name = "Testimonials"
+        url = "/testimonials"
+        weight = 40
+    [[menus.main]]
+        name = "Contact"
+        url = "/contact"
+        weight = 50
+
+
 [params]
 description = "The Sporting Chance Project is an Alternative Learning Provider which aims to meet the educational, social and lifestyle needs of young people"
 facebook = ""
