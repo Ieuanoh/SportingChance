@@ -63,6 +63,8 @@ page_sections:
         <br>
         - Construction workshops
         <br>
+        - Sport and fitness, Catering, and Animal Care courses
+        <br>
         - Functional skills including Maths, English and ICT
         <br>
         - Personal social development

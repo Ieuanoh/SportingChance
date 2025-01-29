@@ -15,7 +15,7 @@ fields:
   name: caption
   label: Caption
   description: Description of the person
-  default: Now working as an apprentice ar Mercedes
+  default: Now working as an apprentice at Mercedes
 - type: textarea
   label: Quote
   name: quote
