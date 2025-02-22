@@ -19,7 +19,7 @@ page_sections:
     icon: "/img/school.svg"
     iconalt: trades icon
   - copy: Our skilled tradesmen and experienced tutors provide nationally recognised
-      qualifications, including NOCN, ASDAN and NCFE Functional Skills - Maths, English and ICT.
+      qualifications, including ASDAN and NCFE Functional Skills - Maths, English and ICT.
     title: Qualifications Provided
     icon: "/img/altedu.svg"
     iconalt: qualifications icon
