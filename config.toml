@@ -40,7 +40,7 @@ facebook = ""
 linkedin = ""
 twitter = ""
 [security.funcs]
-getenv = ["^HUGO_", "^WC_", "CONTEXT"]
+getenv = ["^HUGO_", "^WC_", "CONTEXT", "^URL$", "^DEPLOY_PRIME_URL$"]
 [sitemap]
 changefreq = "monthly"
 filename = "sitemap.xml"
