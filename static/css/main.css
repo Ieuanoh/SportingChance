@@ -13,13 +13,11 @@ html {
 /* Skews */
 
 .skewY--parent-1 {
-  -webkit-transform: skewY(-1deg);
-          transform: skewY(-1deg);
+  transform: skewY(-1deg);
 }
 
 .skewY--parent-1 * {
-  -webkit-transform: skewY(1deg);
-          transform: skewY(1deg);
+  transform: skewY(1deg);
 }
 
 /* Gradients */
@@ -82,7 +80,7 @@ main {
   font-weight: 500;
   font-size: 4rem;
   color: #eac435;
-  top: 0;
+  top: 0rem;
   left: -1.5rem;
   position: absolute;
 }
@@ -93,7 +91,7 @@ main {
   font-weight: 500;
   font-size: 4rem;
   color: #eac435;
-  bottom: 0;
+  bottom: 0rem;
   right: .5rem;
   position: absolute;
 }
@@ -729,20 +727,7 @@ textarea {
   font-family: inherit;
 }
 
-input::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder {
-  color: inherit;
-  opacity: .5;
-}
-
-input:-ms-input-placeholder,
-textarea:-ms-input-placeholder {
-  color: inherit;
-  opacity: .5;
-}
-
-input::-ms-input-placeholder,
-textarea::-ms-input-placeholder {
+input::-moz-placeholder, textarea::-moz-placeholder {
   color: inherit;
   opacity: .5;
 }
@@ -3516,7 +3501,6 @@ table {
 }
 
 .sticky {
-  position: -webkit-sticky;
   position: sticky;
 }
 
@@ -4041,14 +4025,12 @@ table {
 .select-none {
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 
 .select-text {
   -webkit-user-select: text;
      -moz-user-select: text;
-      -ms-user-select: text;
           user-select: text;
 }
 
@@ -7023,7 +7005,6 @@ table {
   }
 
   .sm\:sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -7540,14 +7521,12 @@ table {
   .sm\:select-none {
     -webkit-user-select: none;
        -moz-user-select: none;
-        -ms-user-select: none;
             user-select: none;
   }
 
   .sm\:select-text {
     -webkit-user-select: text;
        -moz-user-select: text;
-        -ms-user-select: text;
             user-select: text;
   }
 
@@ -10501,7 +10480,6 @@ table {
   }
 
   .md\:sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -11018,14 +10996,12 @@ table {
   .md\:select-none {
     -webkit-user-select: none;
        -moz-user-select: none;
-        -ms-user-select: none;
             user-select: none;
   }
 
   .md\:select-text {
     -webkit-user-select: text;
        -moz-user-select: text;
-        -ms-user-select: text;
             user-select: text;
   }
 
@@ -13979,7 +13955,6 @@ table {
   }
 
   .lg\:sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -14496,14 +14471,12 @@ table {
   .lg\:select-none {
     -webkit-user-select: none;
        -moz-user-select: none;
-        -ms-user-select: none;
             user-select: none;
   }
 
   .lg\:select-text {
     -webkit-user-select: text;
        -moz-user-select: text;
-        -ms-user-select: text;
             user-select: text;
   }
 
@@ -17457,7 +17430,6 @@ table {
   }
 
   .xl\:sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -17974,14 +17946,12 @@ table {
   .xl\:select-none {
     -webkit-user-select: none;
        -moz-user-select: none;
-        -ms-user-select: none;
             user-select: none;
   }
 
   .xl\:select-text {
     -webkit-user-select: text;
        -moz-user-select: text;
-        -ms-user-select: text;
             user-select: text;
   }
 
