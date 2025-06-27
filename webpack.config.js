@@ -1,4 +1,4 @@
-const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const path = require('path')
 
 module.exports = {
@@ -7,6 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'static'),
     filename: 'app.js',
+    publicPath: '/'
   },
   module: {
     rules: [
@@ -15,27 +16,29 @@ module.exports = {
         exclude: /node_modules/,
         use: {
           loader: "babel-loader",
-          options: { presets: ['babel-preset-env'] }
+          options: { presets: ['@babel/preset-env'] }
         }
       },
       {
         test: /\.css$/,
-        use: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: [
-            { loader: 'css-loader', options: { importLoaders: 1 } },
-            'postcss-loader'
-          ]
-        })
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          'postcss-loader'
+        ]
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        type: 'asset/resource',
+        generator: {
+          filename: 'fonts/[name][ext]'
+        }
       }
     ]
   },
   plugins: [
-    new ExtractTextPlugin({
-      filename: getPath => {
-				return getPath('/css/main.css');
-			},
-			allChunks: true
+    new MiniCssExtractPlugin({
+      filename: 'css/main.css'
     })
   ]
 }
