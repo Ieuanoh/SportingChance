@@ -3,7 +3,7 @@
   command = "yarn build && hugo"
 
 [build.environment]
-  HUGO_VERSION = "0.48"
+  HUGO_VERSION = "0.121.0"
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
 
