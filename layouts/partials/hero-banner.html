@@ -1,10 +1,14 @@
-<section style="background-image:url({{ .Param "hero_bg" }}); height:100vh;" class="relative mt-12 bg-cover z-0 flex items-center justify-center">
+<section style="background-image:url({{ .Param " hero_bg" }}); height:calc(100vh - 4.8rem); margin-top: 4.8rem;"
+    class="relative bg-cover z-0 flex items-center justify-center">
     <div class="texture-overlay opacity-75 absolute pin h-full w-full z-10"></div>
     <div class="sm:w-4/5 w-5/6 m-auto text-center pt-10 relative z-20">
         <div class="mw6 pv5 animated fadeIn">
-            <h1 class="font-header lg:text-headline text-4xl font-medium text-black my-2 py-5">{{ .Param "hero_text" | safeHTML }}</h1>
-            <p class="font-main lg:text-2xl text-xl leading-normal text-grey-darkest">{{ .Param "hero_sub" }}</p>   
-            <div class="my-12"><a class="shadow hover:shadow-lg sc-yellow-grad trans-02 my-5 text-xl rounded mt-4 py-4 px-6 text-right font-semibold no-underline text-white" href="{{ .Param "herolink" }}">{{ .Param "herobuttontext" }} →</a></div>
+            <h1 class="font-header text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-medium text-black my-2 py-5">{{
+                .Param "hero_text" | safeHTML }}</h1>
+            <p class="font-main lg:text-2xl text-xl leading-normal text-grey-darkest">{{ .Param "hero_sub" }}</p>
+            <div class="my-12"><a
+                    class="shadow hover:shadow-lg sc-yellow-grad trans-02 my-5 text-xl rounded mt-4 py-4 px-6 text-right font-semibold no-underline text-white"
+                    href="{{ .Param " herolink" }}">{{ .Param "herobuttontext" }} →</a></div>
         </div>
     </div>
 </section>

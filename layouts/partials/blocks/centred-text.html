@@ -1,14 +1,25 @@
 {{ $Params := .Params }}
-<section class="sm:max-w-lg w-5/6 sm:my-24 my-4 m-auto py-10 {{ if isset .Params "left-align" }}text-left {{ else }} text-center {{ end }}">
-    {{ with .Params.header }}<h2 class="font-header text-4xl sm:text-5xl font-gray font-medium py-10">{{ . }}</h2>{{ end }}
-    {{ with .Params.main_text }}<p class="font-main lg:text-2xl text-lg leading-normal text-grey-darkest">{{ $Params.main_text | safeHTML }}</p>{{ end }}
+<section class="w-11/12 sm:w-10/12 md:w-9/12 lg:w-8/12 xl:w-7/12 sm:my-24 my-4 m-auto py-10 text-center">
+    {{ with .Params.header }}
+        <h2 class="font-header text-4xl sm:text-5xl font-gray font-medium py-10">{{ . }}</h2>
+    {{ end }}
+    
+    {{ with .Params.main_text }}
+        <p class="font-main lg:text-2xl text-lg leading-normal text-grey-darkest">{{ $Params.main_text | safeHTML }}</p>
+    {{ end }}
+    
     {{ with .Params.text_section}}
         {{ range $i, $e:= . }}
-            {{ with .heading }}<h2 class="md:text-4xl text-2xl font-thin text-left py-8 font-fancy text-black">{{ . }}</h2>{{ end }}
+            {{ with .heading }}
+                <h2 class="md:text-4xl text-2xl font-thin text-left py-8 font-fancy text-black">{{ . }}</h2>
+            {{ end }}
             <p class="font-main lg:text-2xl text-lg leading-normal text-grey-darkest">{{ .content | safeHTML }}</p>
         {{ end }}
     {{ end }}
 
-
-    {{ with .Params.button }}<div class="my-12"><a href="{{ $Params.buttonlink}}" class="trans-02 border-2 hover:border-sc-blue hover:bg-sc-blue my-5 text-xl border-grey-darker rounded mt-4 p-4 text-right font-semibold no-underline text-grey-dark hover:text-white" href="/">{{ $Params.buttontext }} →</a></div>{{ end }}
+    {{ with .Params.button }}
+        <div class="my-12">
+            <a href="{{ $Params.buttonlink}}" class="trans-02 border-2 border-black hover:border-transparent hover:bg-sc-blue my-5 text-xl rounded mt-4 p-4 text-right font-semibold no-underline text-black hover:text-white block w-fit button-style">{{ $Params.buttontext }} →</a>
+        </div>
+    {{ end }}
 </section>
