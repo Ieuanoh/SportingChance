@@ -1,33 +1,42 @@
 <style>
     .header-overlay::after {
-        top:0;
-        left:0;
-        right:0;
-        bottom:0;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
         position: absolute;
         content: '';
         height: 100%;
         width: 100%;
-        z-index:1;
+        z-index: 1;
         opacity: 0.6;
         background-image: linear-gradient(to right, #77a3de 10%, #1cbed4 100%);
+    }
+
+    .clean-hr {
+        border: none;
+        height: 4px;
+        background-image: linear-gradient(to right, #ff7c70 0, #fb4d3d 100%);
+        margin: 2rem auto;
     }
 </style>
 
 {{ $Params := .Params }}
 
 <section class="w-full relative mt-24">
-        <div class="animated fadeIn max-w-lg relative z-10 m-auto text-center py-16">
-            <h1 class="md:text-headline text-3xl  font-header text-grey-darker font-medium">{{ .Params.title }}</h1>
-            <hr class="p-1 sc-red-grad md:w-28 w-24 my-8">
-            <p class="text-xl px-16 leading-normal text-grey-darker">{{ .Params.subtext }}</p>
+    <div
+        class="animated fadeIn w-11/12 sm:w-10/12 md:w-9/12 lg:w-8/12 xl:w-7/12 relative z-10 m-auto text-center py-16">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-header text-grey-darker font-medium">{{
+            .Params.title }}</h1>
+        <hr class="clean-hr md:w-28 w-24">
+        <p class="text-base sm:text-xl mx-auto text-center leading-normal text-grey-darker">{{ .Params.subtext }}</p>
 
-        </div>
+    </div>
 
-        {{ with .Params.image }}
-        <div class="w-full relative text-center mt-12">  
-                <img src="{{ $Params.image }}" alt="{{ $Params.alt }}" class="w-full relative"/>
-        </div>
-        {{ end }}
+    {{ with .Params.image }}
+    <div class="w-full relative text-center mt-12">
+        <img src="{{ $Params.image }}" alt="{{ $Params.alt }}" class="w-full relative" />
+    </div>
+    {{ end }}
 
 </section>

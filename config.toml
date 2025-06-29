@@ -22,7 +22,7 @@ url = "/mentoring-life-skills"
 weight = 1
 parent = "Services"
 [[menu.main]]
-name = "Construction"
+name = "Vocational"
 url = "/alternative-learning-provision"
 weight = 2
 parent = "Services"

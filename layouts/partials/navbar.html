@@ -1,153 +1,246 @@
-<header class="w-full fixed z-50 pin-t bg-white">
-  <nav class="mx-auto flex items-center justify-between px-6 py-2" aria-label="Global">
+<header class="w-full fixed top-0 z-50 bg-white shadow-sm">
+  <nav
+    class="w-11/12 sm:w-10/12 md:w-11/12 lg:w-11/12 xl:w-11/12 mx-auto flex items-center justify-between px-4 lg:px-6 py-2"
+    aria-label="Global">
     <div class="flex justify-between">
       <a href="/">
         <img src="/img/scplogo1.png" class="w-48" alt="sporting chance logo" />
       </a>
     </div>
+
+    <!-- Desktop Navigation -->
     <div class="hidden lg:flex items-center justify-between text-lg py-4">
-      {{ range .Site.Menus.main }}
-      {{ if .HasChildren }}
-      <div class="flex flex-auto items-center px-3">
-        <a href="{{ .URL }}"
-          class="no-underline uppercase tracking-wide block rounded text-lg text-black font-black hover:underline">{{ .Name }}</a>
-        <button type="button" class="inline-flex rounded" id="lg-disclosure-button" aria-controls="disclosure-1"
-          aria-expanded="false">
-          <!--
-            Expand/collapse icon, toggle classes based on menu open state.
-          -->
-          <svg class="h-5 w-5 flex-none hidden" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
-            data-slot="icon" id="lg-expand-menu-icon">
-            <path fill-rule="evenodd"
-              d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
-              clip-rule="evenodd" />
-          </svg>
-          <svg class="h-5 w-5 flex-none" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon"
-            id="lg-collapse-menu-icon">
-            <path fill-rule="evenodd"
-              d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
-              transform="rotate(180 10 10)" clip-rule="evenodd" />
-          </svg>
-        </button>
-      </div>
-      <!-- 
-        'Product' sub-menu, show/hide based on menu state.
-      -->
-      <div class="hidden fixed z-10 mt-24 ml-32" role="dialog" aria-modal="true" id="lg-services-menu">
-        <div class="ml-10 pl-4 pr-2 mt-4 bg-white">
-          {{ range .Children}}
+      {{ range .Site.Menus.main }} {{ if .HasChildren }}
+      <!-- Dropdown Menu -->
+      <div class="relative group" onmouseenter="!isTouchDevice() && showDropdown(this)"
+        onmouseleave="!isTouchDevice() && hideDropdown(this)">
+        <div class="flex items-center">
           <a href="{{ .URL }}"
-            class="no-underline uppercase tracking-wide -mx-3 block rounded px-3 py-2 text-black font-black hover:underline">{{ .Name }}</a>
-          {{ end }}
+            class="nav-link px-3 py-2 text-black font-black uppercase tracking-wide transition-all duration-200">
+            {{ .Name }}
+          </a>
+          <button type="button" class="p-1 hover:text-sc-blue transition-colors" aria-label="Toggle dropdown menu"
+            onclick="toggleDropdown(this.parentElement.parentElement, event)">
+            <svg class="w-4 h-4 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+        </div>
+
+        <!-- Dropdown Content -->
+        <div
+          class="absolute left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-100 opacity-0 invisible transition-all duration-200 transform origin-top scale-95 pointer-events-none"
+          id="dropdown-{{ .Name | urlize }}">
+          <div class="py-2">
+            {{ range .Children}}
+            <a href="{{ .URL }}"
+              class="block px-4 py-2 text-sm text-black font-black uppercase tracking-wide hover:bg-sc-blue hover:text-white hover:border-l-4 hover:border-sc-yellow transition-all duration-200 no-underline border-l-4 border-transparent"
+              onclick="handleDropdownLinkClick(event)">
+              {{ .Name }}
+            </a>
+            {{ end }}
+          </div>
         </div>
       </div>
       {{ else }}
       <a href="{{ .URL }}"
-        class="no-underline text-black tracking-wide rounded font-black text-lg px-3 uppercase hover:underline">{{ .Name }}</a>
-      {{ end }}
-      {{ end }}
+        class="nav-link px-3 py-2 text-black font-black uppercase tracking-wide transition-all duration-200">
+        {{ .Name }}
+      </a>
+      {{ end }} {{ end }}
     </div>
+
+    <!-- Mobile Menu Button -->
     <div class="flex lg:hidden">
-      <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded p-2.5 text-gray-700"
-        id="show-mobile-menu-btn">
-        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"
-          data-slot="icon">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+      <button type="button" class="p-2 text-gray-700 hover:text-sc-blue transition-colors" id="mobile-menu-btn"
+        aria-label="Toggle mobile menu">
+        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
         </svg>
       </button>
     </div>
   </nav>
-  <!--
-    Mobile menu, show/hide based on menu open state.
-  -->
-  <div class="hidden lg:hidden pin-t pin-r fixed w-full sm:w-auto inset-y-0" role="dialog" aria-modal="true"
-    id="mobile-menu">
-    <div class="w-full sm:max-w-xs z-10 pin-r fixed overflow-y-auto bg-white px-6 py-2">
-      <div class="flex items-center justify-between sm:justify-end">
-        <a href="/" class="sm:hidden">
-          <img src="/img/scplogo1.png" class="w-48" alt="sporting chance logo" />
-        </a>
-        <button type="button" class="-m-2.5 rounded p-2.5 text-gray-700 sm:py-6" id="hide-mobile-menu-btn">
-          <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-            aria-hidden="true" data-slot="icon">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
-          </svg>
-        </button>
-      </div>
-      <div class="mt-2">
-        {{ range .Site.Menus.main }}
-        {{ if .HasChildren }}
-        <div class="flex flex-auto items-center">
+
+  <!-- Mobile Menu -->
+  <div class="lg:hidden hidden" id="mobile-menu">
+    <div class="px-6 py-4 bg-white border-t border-gray-100 space-y-3">
+      {{ range .Site.Menus.main }} {{ if .HasChildren }}
+      <!-- Services and its submenu items -->
+      {{ if eq .Name "Services" }}
+      <!-- Services main link -->
+      <a href="{{ .URL }}"
+        class="nav-link block py-2 text-black font-black uppercase tracking-wide transition-all duration-200">
+        {{ .Name }}
+      </a>
+      <!-- Services submenu items -->
+      {{ range .Children}}
+      <a href="{{ .URL }}"
+        class="block py-2 pl-6 text-sm text-black font-black uppercase tracking-wide hover:text-sc-blue hover:border-l-4 hover:border-sc-yellow transition-all duration-200 no-underline border-l-4 border-transparent">
+        {{ .Name }}
+      </a>
+      {{ end }}
+      {{ else }}
+      <!-- Other dropdown menus (if any) -->
+      <div class="block">
+        <div class="flex items-center justify-between">
           <a href="{{ .URL }}"
-            class="no-underline uppercase tracking-wide -mx-3 block rounded px-3 py-2 text-lg text-black font-black hover:underline">{{ .Name }}</a>
-          <button type="button" class="inline-flex" id="disclosure-button" aria-controls="disclosure-1"
-            aria-expanded="false">
-            <!--
-              Expand/collapse icon, toggle classes based on menu open state.
-            -->
-            <svg class="h-5 w-5 flex-none hidden" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
-              data-slot="icon" id="expand-menu-icon">
-              <path fill-rule="evenodd"
-                d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
-                clip-rule="evenodd" />
-            </svg>
-            <svg class="h-5 w-5 flex-none" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon"
-              id="collapse-menu-icon">
-              <path fill-rule="evenodd"
-                d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
-                transform="rotate(180 10 10)" clip-rule="evenodd" />
+            class="nav-link block py-2 text-black font-black uppercase tracking-wide transition-all duration-200">
+            {{ .Name }}
+          </a>
+          <button type="button" class="p-1 hover:text-sc-blue transition-colors" onclick="toggleMobileDropdown(this)"
+            aria-label="Toggle dropdown menu">
+            <svg class="w-4 h-4 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
             </svg>
           </button>
         </div>
-        <!--
-          'Services' sub-menu, show/hide based on menu state. 
-        -->
-        <div class="ml-3" id="services-menu">
+        <div class="hidden mt-2 ml-4 space-y-2">
           {{ range .Children}}
           <a href="{{ .URL }}"
-            class="no-underline uppercase tracking-wide block rounded py-2 text-black font-black hover:underline">{{ .Name }}</a>
+            class="block py-2 text-sm text-black font-black uppercase tracking-wide hover:text-sc-blue hover:border-l-4 hover:border-sc-yellow transition-all duration-200 no-underline border-l-4 border-transparent">
+            {{ .Name }}
+          </a>
           {{ end }}
         </div>
-        {{ else }}
-        <a href="{{ .URL }}"
-          class="no-underline uppercase tracking-wide block rounded py-2 text-lg text-black font-black hover:underline">{{ .Name }}</a>
-        {{ end }}
-        {{ end }}
       </div>
+      {{ end }}
+      {{ else }}
+      <a href="{{ .URL }}"
+        class="nav-link block py-2 text-black font-black uppercase tracking-wide transition-all duration-200">
+        {{ .Name }}
+      </a>
+      {{ end }} {{ end }}
     </div>
   </div>
 </header>
 
 <script>
-const hideMobileMenuBtn = document.getElementById("hide-mobile-menu-btn");
-const showMobileMenuBtn = document.getElementById("show-mobile-menu-btn");
-const disclosureButton = document.getElementById("disclosure-button");
-const lgDisclosureButton = document.getElementById("lg-disclosure-button");
+  // Touch device detection
+  function isTouchDevice() {
+    return 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+  }
 
-hideMobileMenuBtn.addEventListener("click", () => {
-    toggleMobileMenu();
-});
+  // Dropdown show/hide with delay
+  let hideTimeout;
+  let touchStartTime = 0;
 
-showMobileMenuBtn.addEventListener("click", () => {
-    toggleMobileMenu();
-});
+  function showDropdown(element) {
+    clearTimeout(hideTimeout);
+    const dropdown = element.querySelector('[id^="dropdown-"]');
+    const icon = element.querySelector("svg");
 
-function toggleMobileMenu() {
-    mobileMenu = document.getElementById("mobile-menu");
-    mobileMenu.classList.toggle("hidden");
-};
+    dropdown.classList.remove(
+      "opacity-0",
+      "invisible",
+      "scale-95",
+      "pointer-events-none"
+    );
+    dropdown.classList.add(
+      "opacity-100",
+      "visible",
+      "scale-100",
+      "pointer-events-auto"
+    );
+    icon.style.transform = "rotate(180deg)";
+  }
 
-disclosureButton.addEventListener("click", () => {
-    document.getElementById("expand-menu-icon").classList.toggle("hidden");
-    document.getElementById("collapse-menu-icon").classList.toggle("hidden");
-    servicesMenu = document.getElementById("services-menu");
-    servicesMenu.classList.toggle("hidden");
-});
+  function hideDropdown(element) {
+    const dropdown = element.querySelector('[id^="dropdown-"]');
+    const icon = element.querySelector("svg");
 
-lgDisclosureButton.addEventListener("click", () => {
-    document.getElementById("lg-expand-menu-icon").classList.toggle("hidden");
-    document.getElementById("lg-collapse-menu-icon").classList.toggle("hidden");
-    servicesMenu = document.getElementById("lg-services-menu");
-    servicesMenu.classList.toggle("hidden");
-})
+    hideTimeout = setTimeout(() => {
+      dropdown.classList.remove(
+        "opacity-100",
+        "visible",
+        "scale-100",
+        "pointer-events-auto"
+      );
+      dropdown.classList.add(
+        "opacity-0",
+        "invisible",
+        "scale-95",
+        "pointer-events-none"
+      );
+      icon.style.transform = "rotate(0deg)";
+    }, 150); // 150ms delay before hiding
+  }
+
+  // Touch-friendly dropdown toggle
+  function toggleDropdown(element, event) {
+    // Stop event propagation to prevent interference
+    if (event) {
+      event.stopPropagation();
+    }
+
+    const dropdown = element.querySelector('[id^="dropdown-"]');
+    const icon = element.querySelector("svg");
+    const isVisible = !dropdown.classList.contains("opacity-0");
+
+    if (isVisible) {
+      hideDropdown(element);
+    } else {
+      showDropdown(element);
+    }
+  }
+
+  // Handle clicks on dropdown links
+  function handleDropdownLinkClick(event) {
+    // Stop event propagation to prevent dropdown toggle
+    event.stopPropagation();
+
+    // Close all dropdowns
+    const dropdowns = document.querySelectorAll('[id^="dropdown-"]');
+    dropdowns.forEach(dropdown => {
+      const parent = dropdown.closest('.relative');
+      if (parent) {
+        hideDropdown(parent);
+      }
+    });
+
+    // Allow normal navigation to proceed
+    return true;
+  }
+
+  // Simple mobile menu toggle
+  document
+    .getElementById("mobile-menu-btn")
+    .addEventListener("click", function () {
+      const mobileMenu = document.getElementById("mobile-menu");
+      mobileMenu.classList.toggle("hidden");
+    });
+
+  // Mobile dropdown toggle
+  function toggleMobileDropdown(button) {
+    const dropdown = button.parentElement.nextElementSibling;
+    const icon = button.querySelector("svg");
+
+    dropdown.classList.toggle("hidden");
+    icon.style.transform = dropdown.classList.contains("hidden")
+      ? "rotate(0deg)"
+      : "rotate(180deg)";
+  }
+
+  // Close mobile menu when clicking outside
+  document.addEventListener("click", function (event) {
+    const mobileMenu = document.getElementById("mobile-menu");
+    const mobileMenuBtn = document.getElementById("mobile-menu-btn");
+
+    if (
+      !mobileMenu.contains(event.target) &&
+      !mobileMenuBtn.contains(event.target)
+    ) {
+      mobileMenu.classList.add("hidden");
+    }
+  });
+
+  // Close dropdowns when clicking outside (for desktop)
+  document.addEventListener("click", function (event) {
+    const dropdowns = document.querySelectorAll('[id^="dropdown-"]');
+    dropdowns.forEach(dropdown => {
+      const parent = dropdown.closest('.relative');
+      if (!parent.contains(event.target)) {
+        hideDropdown(parent);
+      }
+    });
+  });
 </script>

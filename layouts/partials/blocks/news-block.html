@@ -7,24 +7,28 @@
     <div class="m-auto max-w-2xl">
         <h2 class="font-header text-5xl font-gray font-medium py-10">Latest News</h2>
         <div class="sm:flex items-start justify-center px-4 py-5">
-            
+
             {{ range (first 2 $section) }}
             <article class="shadow-md bg-white sm:w-1/2 w-5/6 m-auto rounded-lg sm:mx-3 my-4 text-left">
-            {{ if .Params.featured_image }}
+                {{ if .Params.featured_image }}
                 <img src="{{ .Params.featured_image }}" alt="image from {{ .Title }}">
-            {{ end }}
+                {{ end }}
                 <div class="p-6">
                     <h2 class="font-fancy text-3xl text-green-darker pt-2 pb-5">{{ .Title }}</h2>
                     <small class="text-lg">{{ .Date.Format "January 2, 2006" }}</small>
                     <p class="text-lg text-grey-darkest leading-normal py-3">{{ .Summary }}</p>
-                    <div class="my-6"><a class="trans-02 my-5 mt-4 p-2 text-right font-semibold no-underline text-grey-dark hover:text-sc-blue" href="{{ .Permalink }}">Read More →</a></div>
+                    <div class="my-6"><a
+                            class="trans-02 border-2 border-black hover:border-transparent hover:bg-sc-blue my-5 mt-4 p-3 text-right font-semibold no-underline text-black hover:text-white rounded block w-fit button-style"
+                            href="{{ .Permalink }}">Read More →</a></div>
                 </div>
             </article>
             {{ end }}
 
         </div>
 
-        <div class="my-6 m-auto"><a class="my-5 mt-4 p-2 text-right text-xl font-semibold no-underline text-grey-dark hover:text-sc-blue" href="/">See all →</a></div>
+        <div class="my-6 m-auto"><a
+                class="trans-02 border-2 border-black hover:border-transparent hover:bg-sc-blue my-5 mt-4 p-3 text-right text-xl font-semibold no-underline text-black hover:text-white rounded block w-fit button-style"
+                href="/">See all →</a></div>
 
     </div>
 </section>

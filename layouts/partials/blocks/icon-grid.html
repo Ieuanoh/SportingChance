@@ -1,37 +1,46 @@
-<section class="py-4 max-w-3xl px-10 m-auto">
+<section class="py-4 w-11/12 sm:w-11/12 md:w-11/12 lg:w-11/12 xl:w-11/12 px-4 lg:px-6 m-auto">
 
-<style>
-    .icon-box:nth-child(2n) > div {
-        background-color: #2ab7ca; 
+  <style>
+    .icon-box:nth-child(odd)>div {
+      background-color: #eac435;
     }
-    
-    .icon-box > div {
-        background-color: #eac435; 
-    }
-</style>
- 
-<div class="my-4 py-4 flex flex-wrap justify-between">
 
-     {{ $icons := .Params.icon_boxes }}       
-     {{ range $i, $e:= $icons }}
-        <div class="flex lg:w-1/4 my-2 icon-box">
-          <div class="lg:pr-4 mx-2 p-6 text-white">
-            <div style="height:4rem;width:4rem;" class="my-5">
-              <img alt="{{ .iconalt }}" class="max-w-full" src="{{ .icon }}" />
-            </div>
-            <h3 class="font-fancy text-2xl font-hairline">
-             {{ .title }}
-            </h3>
-            <p class="text-md py-2 leading-normal">
-              {{ .copy  | safeHTML }}
-            </p>
-          </div>
+    .icon-box:nth-child(even)>div {
+      background-color: #2ab7ca;
+    }
+
+    .icon-box {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .icon-box>div {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
+
+  <div class="my-4 py-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-4">
+
+    {{ $icons := .Params.icon_boxes }}
+    {{ range $i, $e:= $icons }}
+    <div class="icon-box">
+      <div class="p-4 text-white flex flex-col">
+        <div style="height:4rem;width:4rem;" class="my-3">
+          <img alt="{{ .iconalt }}" class="max-w-full" src="{{ .icon }}" />
         </div>
-
-     {{ end }}
-
+        <h3 class="font-fancy text-2xl font-hairline">
+          {{ .title }}
+        </h3>
+        <p class="text-md py-2 leading-normal flex-grow">
+          {{ .copy | safeHTML }}
+        </p>
+      </div>
     </div>
- 
- 
+
+    {{ end }}
+
   </div>
+
 </section>
