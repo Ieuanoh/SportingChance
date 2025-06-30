@@ -1,0 +1,59 @@
+{{ define "main" }}
+  {{ partial "blocks/generic-header" . }}
+  
+  <section class="bg-grey-lighter stripe-texture sm:py-24 py-8">
+    <div class="max-w-7xl m-auto px-4">
+      <!-- Full width intro section -->
+      <div class="text-center mb-12">
+        <h1 class="font-fancy text-4xl text-grey-darker mb-4">{{ .Title }}</h1>
+        <div class="text-xl leading-normal text-grey-dark max-w-4xl mx-auto">
+          {{ .Content }}
+        </div>
+      </div>
+
+      <!-- Two-column flex layout for policy items -->
+      <div class="flex flex-wrap justify-center gap-8">
+        {{ range .Pages }}
+          <div class="w-full lg:w-5/12 xl:w-4/12 mb-8">
+            <div class="shadow-md bg-white rounded overflow-hidden text-left h-full">
+              <div class="p-6 sm:p-8">
+                {{ if .Date }}
+                  <div class="text-md uppercase tracking-wide font-bold text-grey-dark">
+                    Last Updated: {{ .Date.Format "January 2, 2006" }}
+                  </div>
+                {{ end }}
+                
+                <h2 class="font-fancy sm:text-2xl text-xl text-grey-darker pt-2">
+                  <a href="{{ .RelPermalink }}" class="hover:text-sc-blue text-black no-underline trans-02">
+                    {{ .Title }}
+                  </a>
+                </h2>
+
+                <div class="text-md uppercase tracking-wide font-bold mt-3">
+                  {{ range .Params.tags }}
+                    <span class="trans-02 border-2 border-sc-blue bg-sc-blue mb-2 capitalize text-sm rounded py-1 px-3 text-right font-semibold no-underline text-white inline-block mr-2">{{ . }}</span>
+                  {{ end }}
+                  {{ if .Params.password_required }}
+                    <span class="trans-02 border-2 border-red-500 bg-red-500 mb-2 capitalize text-sm rounded py-1 px-3 text-right font-semibold no-underline text-white inline-block">
+                      🔒 Password Protected
+                    </span>
+                  {{ end }}
+                </div>
+
+                <div class="text-lg leading-normal text-grey-dark mt-4">
+                  {{ .Summary }}
+                </div>
+
+                <div class="mt-6">
+                  <a href="{{ .RelPermalink }}" class="trans-02 border-2 border-black hover:border-transparent hover:bg-sc-blue text-black hover:text-white font-bold py-2 px-4 rounded inline-block no-underline">
+                    View Policy →
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+{{ end }} 
