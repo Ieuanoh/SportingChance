@@ -6,7 +6,7 @@
       {{ range .Paginator.Pages }}
         <div class="shadow-md bg-white sm:w-3/5 mx-4 sm:mx-auto rounded overflow-hidden my-16 text-left">
             {{ if .Params.featured_image }}
-            <a href="{{ .URL }}"><img src="{{ .Params.featured_image }}" /></a>
+            <a href="{{ .RelPermalink }}"><img src="{{ .Params.featured_image }}" /></a>
             {{ end }}
             <div class="p-8 sm:p-12">
                 {{ if .Date }}
@@ -16,7 +16,7 @@
                 {{ end }}
                 
                 <h1 class="font-fancy sm:text-3xl text-2xl text-grey-darker pt-2">
-                  <a href="{{ .URL }}" class="hover:text-sc-blue text-grey-darkest no-underline">
+                  <a href="{{ .RelPermalink }}" class="hover:text-sc-blue text-grey-darkest no-underline">
                     {{ .Title }}
                   </a>
                 </h1>

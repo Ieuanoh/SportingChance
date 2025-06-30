@@ -1,6 +1,6 @@
 DefaultContentLanguage = "en"
 MetaDataFormat = "yaml"
-Paginate = 3
+pagination.pagerSize = 3
 baseURL = ""
 description = ""
 enableRobotsTXT = true
